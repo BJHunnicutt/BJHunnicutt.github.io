@@ -37,16 +37,9 @@ main {
 .bg-image {
   /*background-color: lightgray;*/
   background-size: cover;
-  /* image specified in seperate class  */
   height: 100vh;
   width: 100%;
   position: fixed;
-
-	/*-ms-background-position-x: center;
-	-ms-background-position-y: bottom;
-	background-position: center bottom;
-	background-size: cover;
-	-ms-behavior: url(backgroundsize.min.htc);*/
 
 }
 

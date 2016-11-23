@@ -38,19 +38,7 @@ main {
   height: 100vh;
   width: 100%;
   position: fixed;
-	/*background-image: url(../assets/rocks-large.jpeg);*/
-  /* lt ie8 */
-	-ms-background-position-x: center;
-	-ms-background-position-y: bottom;
-	/* default - may override with classes or media query */
-	background-position: center bottom;
-	/* scale bg image proportionately */
-	background-size: cover;
-	/* ie8 polyfill */
-	-ms-behavior: url(backgroundsize.min.htc);
-	/* prevent scaling past src width (or not) */
-	/* max-width: 1200px; */
-  /*z-index: -1;*/
+  background-size: cover;
 }
 
 .back-image {
