@@ -35,6 +35,7 @@ main {
 
 /* ------------------- Background image --------------------- */
 .bg-image {
+  background-color: lightgray;
 
   /* image specified in seperate class  */
   height: 100vh;
