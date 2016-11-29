@@ -1,0 +1,238 @@
+@import url(https://fonts.googleapis.com/css?family=Nothing+You+Could+Do);
+
+/* These things (html and body are actually for the footer)*/
+
+html {
+    height: 100%;
+}
+
+main {
+
+}
+
+.name h1 {
+    font-size: 20vw;
+}
+
+.name h2 {
+    font-size: 15vw;
+}
+
+
+/* ------------------- Background image --------------------- */
+
+.bg-image {
+    background-color: white;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+}
+
+.back-image {
+    /*background-image: url(../assets/rocks-small.jpeg);*/
+    z-index: -2;
+}
+
+.top-image {
+    background-image: url(../assets/lines-gray-01.png);
+    background-size: cover;
+    z-index: -1;
+}
+/* ------------------- end Background image --------------------- */
+
+
+
+/* ------------------- HEADER --------------------- */
+header {
+    background-color: rgba(150, 150, 150, 0.5);
+    height: auto;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+header a, footer a{
+   color: white;
+    text-decoration: none;
+}
+
+header a:hover, footer a:hover  {
+    color: black;
+}
+
+.local-nav {
+    width: 75%;
+    display: inline-block;
+    float: right;
+    font-family: "Courier New", Courier, monospace;
+}
+
+header li * {
+    color: white;
+    display: inline-block;
+    float: right;
+    padding: 11px 15px 8px 0px;
+    font-size: 3vw;
+}
+
+header ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+
+#homepage-link {
+    display: inline-block;
+    /*float: left;*/
+    font-family: "Courier New", Courier, monospace;
+    font-size: 3vw;
+    padding: 11px 5px 0 15px;
+}
+/* ------------------- end HEADER --------------------- */
+
+
+
+/* ------------------- FOOTER --------------------- */
+
+footer {
+  background-color: rgba(150, 150, 150, 0.5);
+  width: 100%;
+  height: 40px;
+  position: relative;
+  bottom: 0;
+  overflow: hidden;
+  font-size: 14pt;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#cdate {
+   color: white;
+   width: auto;
+   height: inherit;
+   display: inline-block;
+   float: left;
+   padding: 12px 0px 10px 10px;
+}
+
+.social-nav {
+    width: auto;
+    height: inherit;
+    display: inline-block;
+    float: right;
+
+    padding-right: 15px;
+}
+
+.icon-img * {
+    height: 20px;
+    padding-top: 8px;
+    padding-right: 5px;
+}
+
+
+/*swap icons*/
+
+.icon-img img:last-child {
+    display: none
+}
+
+.icon-img:hover img:first-child {
+    display: none
+}
+
+.icon-img:hover img:last-child {
+    display: inline-block
+}
+
+/* ------------------- end FOOTER --------------------- */
+
+
+#inset-text {
+    /*background-color: rgba(150, 150, 150, 0.25);*/
+    /*margin: 4%;*/
+    padding: 8%;
+    font-family: "Courier New", Courier, monospace;
+    position: relative;
+    top: 45px;
+}
+
+#inset-text a {
+   color: rgb(112, 112, 112);
+   text-decoration: none;
+}
+
+#inset-text a:hover {
+   color: white;
+}
+
+#inset-text h1 {
+   font-size: 2em;
+   line-height: 2em;
+   text-align: center;
+}
+
+#inset-text h3 {
+   font-size: 1.25em;
+   line-height: 2em;
+}
+
+#inset-text p {
+   padding-bottom: 10px;
+}
+
+#inset-text li {
+   /*text-align: left;*/
+   list-style: disc;
+   list-style-position: inside;
+
+}
+
+#inset-text ul {
+   padding-left: 15px;
+   padding-bottom: 10px;
+}
+
+.cv-section {
+   padding: 15px;
+   border-left: 1px solid;
+   margin-left: 50px;
+}
+
+.education-section {
+   /*border: 0.5px solid;*/
+}
+
+.center {
+   text-align: center;
+}
+
+.indent {
+   padding-left: 15px;
+}
+
+
+
+/* ------------------- Project THumbnails --------------------- */
+
+.project-img * {
+    height: 300px;
+    padding-top: 8px;
+    padding-right: 5px;
+}
+
+
+/*swap icons*/
+
+.project-img img:last-child {
+    display: none
+}
+
+.project-img:hover img:first-child {
+    display: none
+}
+
+.project-img:hover img:last-child {
+    display: inline-block
+}

@@ -1,41 +1,138 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title> Portfolio </title>
-    <link href="styles/_reset_and_normalize.css" type="text/css" rel="stylesheet">
-    <link href="styles/main.css" type="text/css" rel="stylesheet">
-  </head>
-  <body>
-    <section class="bg-image back-image"></section>
-    <section class="bg-image top-image"></section>
 
-    <header>
+<head>
+   <title> CV </title>
+   <link href="../styles/reset_and_normalize.css" type="text/css" rel="stylesheet">
+   <link href="../styles/pages.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+   <section class="bg-image back-image"></section>
+   <section class="bg-image top-image"></section>
+
+   <header>
+      <p id="homepage-link">
+         <a href="../index.html" alt="Homepage link">HOME</a>
+      </p>
+      <nav class="local-nav">
+         <ul>
+            <li><a href="../about/cv.html" title="Resume"> CV </a></li>
+            <li><a href="../notes/overview.html" title="Blog"> NOTES </a></li>
+            <li><a href="../projects/overview.html" title="Portfolio"> PROJECTS </a></li>
+            <li><a href="../about/overview.html" title="About Me"> ABOUT </a></li>
+         </ul>
+      </nav>
+   </header>
+   <main>
+      <section id="inset-text">
+         <h1>Barbara {Jeannie} Hunnicutt</h1>
+
+         <!-- <p><a href="jeannie.hunnicutt@gmail.com">Email</a> | <a href="https://www.linkedin.com/in/jeanniehunnicutt">LinkedIn</a> | <a href="https://github.com/BJHunnicutt/">GitHub</a></p> -->
+
+         <p class="center">I'm a scientist turned software developer interested in making tools to help turn data into knowledge. </p>
+
+         <h3>EDUCATION</h3>
+            <section class="cv-section">
+               <div class="education-section">
+                  <p><strong>Certificate, Software Development</strong> – <em>(in progress)</em>
+                  <br />
+                  <a href="http://adadevelopersacademy.org/" title="Ada Developers Academy Homepage">Ada Developers Academy</a>, Seattle, WA</p>
+               </div>
+               <div class="education-section">
+                  <p><strong>Ph.D. Neuroscience</strong> – (<em>2015</em>)
+                  <br />
+                  Oregon Health &amp; Science University, Portland, OR</p>
+               </div>
+               <div class="education-section">
+                  <p><strong>B.S. Cell Biology &amp; Neuroscience</strong> – (<em>2007</em>)
+                  <br />
+                  Montana State University, Bozeman, MT</p>
+               </div>
+            </section>
+
+         <h3>EXPERIENCE</h3>
+            <section class="cv-section">
+               <p><strong>Software development student</strong><em>, (2016 - present)</em>
+                  <span><a href="http://adadevelopersacademy.org/" title="Ada Developers Academy Homepage">Ada Developers Academy</a></span>
+                  <ul>
+                     <li>Immersive 6-month software development training program plus a 5-month industry internship</li>
+                     <li>Full-stack training in Ruby, Rails, JavaScript, and HTML5/CSS3</li>
+                     <li>Emphasizes Agile and Test-Driven Development, CS fundamentals, and pair programming.</li>
+                  </ul>
+               </p>
+
+               <p><strong>IP Technical Consultant</strong><em>, (2015 – 2016)</em>
+                  <span>Alleman, Hall, McCoy, Russell &amp; Tuttle, LLC</span>
+                  <ul>
+                     <li>Researched, wrote, and prosecuted patent applications for a wide range of scientific, software, and engineering inventions, which required an ability to rapidly grasp and analyze unfamiliar fields.</li>
+                  </ul>
+               </p>
+
+               <p><strong>Freelance Data Visualization</strong><em> (2015 – present)</em>
+                  <ul>
+                     <li>Data visualization and visual analytics of scientific datasets for research and editorial use.</li>
+                  </ul>
+               </p>
+
+               <p><strong>Graduate Research Scientist</strong></em> (2010 – 2015)</em>
+                  <span><a href="http://www.ohsu.edu/xd/research/centers-institutes/vollum/faculty/maolab.cfm">Oregon Health &amp; Science University</a>, Portland, OR</span>
+                  <ul>
+                     <li>Generated and computationally registered high-resolution imaging datasets for 335 anatomical tracing experiments (MATLAB, Python, ImageJ/Java)</li>
+                     <li>Segmented images using a combination of supervised and unsupervised machine learning algorithms</li>
+                     <li>Resulting in the first map of all excitatory inputs to a crucial decision making area, the basal ganglia</li>
+                  </ul>
+               </p>
+            </section>
+
+         <h3>TECHNICAL SKILLS</h3>
+            <section class="cv-section">
+               <p><strong>Languages:</strong> Ruby, JavaScript, MATLAB, R, CSS3, HTML5, and beginner Python and SQL</p>
+               <p><strong>Frameworks &amp; Libraries:</strong> Rails, Foundation, jQuery, Node, AJAX, Backbone</p>
+               <p><strong>Tools:</strong> Git/GitHub, Bash, Heroku</p>
+               <p><strong>Methodologies:</strong> Test Driven Development, Agile, RESTful routing, Model-View-Controller, object oriented programming, and API development</p>
+            </section>
+
+         <h3>OTHER SOURCES OF KNOWLEDGE</h3>
+            <section class="cv-section">
+               <p><strong>Visualization in Science &amp; Education</strong> <em>Summer 2015</em>
+                  <br /><em>Gordon Research Conference, Lewiston, ME</em>
+                  <li class="indent">An international conference to address the challenges and best practices for the use of data visualization to communicate complex scientific datasets.</li>
+               </p>
+
+               <p><strong>OMSI Science Communication Fellow</strong> <em>2014–2015</em>
+                  <br /><em>Oregon Museum of Science &amp; Industry</em>
+                  <li class="indent">Projects and workshops on communicating basic science to the public.</li>
+               </p>
+               <p><strong>Summer Workshop on the Dynamic Brain</strong> <em>Summer 2014</em> <span>University of Washington &amp; The Allen Institute for Brain Science: Friday Harbor, Washington</span>
+                  <li class="indent">Intensive, project-based computational neuroscience course designed to bring together basic researchers and computer scientists to address data-heavy research questions in neuroscience.</li>
+               </p>
+               <p><strong>Science Policy Discussion Group Co-Founder</strong> – <em>2014–2015</em> <span>Oregon Health &amp; Science University</span>
+                  <li class="indent">Organized round table discussions between university students and faculty with representatives from biotech and local, state and federal government to talk about science policy</li>
+               </p>
+            </section>
+
+      </section>
+
+   </main>
+
+   <footer>
+      <p id='cdate'> jeannie hunnicutt &copy; 2016 </p>
       <nav class="social-nav">
-          <a class="icon-img" href="mailto:BJeanineH@gmail.com">
-            <img src="assets/icons/Mail-White.svg" alt="Email link">
-            <img src="assets/icons/Mail-black.svg" alt="Email link">
-          </a>
+          <!-- <a class="icon-img" href="mailto:BJeanineH@gmail.com">
+            <img src="../assets/icons/Email-White.svg" alt="Email link">
+            <img src="../assets/icons/Email-black.svg" alt="Email link">
+          </a> -->
           <a class="icon-img" href="https://www.linkedin.com/in/jeanniehunnicutt">
-            <img src="assets/icons/LinkedIn-white.svg" alt="LinkedIn link">
-            <img src="assets/icons/LinkedIn-black.svg" alt="LinkedIn link">
+            <img src="../assets/icons/LinkedIn-white.svg" alt="LinkedIn link" title="LinkedIn">
+            <img src="../assets/icons/LinkedIn-black.svg" alt="LinkedIn link" title="LinkedIn">
           </a>
           <a class="icon-img" href="https://github.com/BJHunnicutt">
-            <img src="assets/icons/Github-White.svg" alt="Email link">
-            <img src="assets/icons/Github-black.svg" alt="Email link">
+            <img src="../assets/icons/Github-white.svg" alt="GitHub link" title="GitHub">
+            <img src="../assets/icons/Github-black.svg" alt="GitHub link" title="GitHub">
           </a>
       </nav>
-      <nav class="local-nav">
-          <ul>
-            <li><a href="about/cv.html"> CV </a></li>
-            <li><a href="notes/overview.html"> NOTES </a></li>
-              <li><a href="projects/overview.html"> PROJECTS </a></li>
-            <li><a href="about/overview.html"> ABOUT </a></li>
-          </ul>
-      </nav>
-    </header>
-    <main>
-      
+   </footer>
+</body>
 
-    </main>
-  </body>
 </html>
