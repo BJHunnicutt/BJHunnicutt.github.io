@@ -58,20 +58,17 @@ header a, footer a{
     text-decoration: none;
 }
 
-/* -------------- Variable color hover ---------------- */
+
 
 header a:hover, footer a:hover  {
     color: black;
 }
+
 #a:hover {color: magenta;}
 #b:hover {color: purple;}
 #c:hover {color: lime;}
 #d:hover {color: cyan;}
 #e:hover {color: gold;}
-
-
-
-/* ----------- end Variable color hover -------------- */
 
 
 .local-nav {
