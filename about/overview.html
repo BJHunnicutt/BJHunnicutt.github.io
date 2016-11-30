@@ -3,6 +3,7 @@
   <head>
     <title> About </title>
     <link href="../styles/reset_and_normalize.css" type="text/css" rel="stylesheet">
+    <link href="../styles/base.css" type="text/css" rel="stylesheet">
     <link href="../styles/pages.css" type="text/css" rel="stylesheet">
   </head>
   <body>
@@ -10,17 +11,17 @@
     <section class="bg-image top-image"></section>
 
     <header>
-      <p id="homepage-link">
-         <a href="../index.html" alt="Homepage link">HOME</a>
-      </p>
-      <nav class="local-nav">
+       <p id="homepage-link">
+          <a id="a" href="../index.html" alt="Homepage link">HOME</a>
+       </p>
+       <nav class="local-nav">
           <ul>
-             <li><a href="../about/cv.html" title="Resume"> CV </a></li>
-             <li><a href="../notes/overview.html" title="Blog"> NOTES </a></li>
-             <li><a href="../projects/overview.html" title="Portfolio"> PROJECTS </a></li>
-             <li><a href="../about/overview.html" title="About Me"> ABOUT </a></li>
+             <li><a id="b" href="../about/cv.html" title="Resume"> CV </a></li>
+             <li><a id="c" href="../notes/overview.html" title="Blog"> NOTES </a></li>
+             <li><a id="d" href="../projects/overview.html" title="Portfolio"> PROJECTS </a></li>
+             <li><a id="e" href="../about/overview.html" title="About Me"> ABOUT </a></li>
           </ul>
-      </nav>
+       </nav>
     </header>
     <main>
       <section id="inset-text">
@@ -36,5 +37,22 @@
          </p>
      </section>
     </main>
+    <footer>
+       <p id='cdate'> jeannie hunnicutt &copy; 2016 </p>
+       <nav class="social-nav">
+           <!-- <a class="icon-img" href="mailto:BJeanineH@gmail.com">
+             <img src="../assets/icons/Email-White.svg" alt="Email link">
+             <img src="../assets/icons/Email-black.svg" alt="Email link">
+           </a> -->
+           <a class="icon-img" href="https://www.linkedin.com/in/jeanniehunnicutt">
+             <img src="../assets/icons/LinkedIn-white.svg" alt="LinkedIn link" title="LinkedIn">
+             <img src="../assets/icons/LinkedIn-black.svg" alt="LinkedIn link" title="LinkedIn">
+           </a>
+           <a class="icon-img" href="https://github.com/BJHunnicutt">
+             <img src="../assets/icons/Github-white.svg" alt="GitHub link" title="GitHub">
+             <img src="../assets/icons/Github-black.svg" alt="GitHub link" title="GitHub">
+           </a>
+       </nav>
+    </footer>
   </body>
 </html>

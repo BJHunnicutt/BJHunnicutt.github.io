@@ -3,38 +3,25 @@
   <head>
     <title> Portfolio </title>
     <link href="../styles/reset_and_normalize.css" type="text/css" rel="stylesheet">
-    <link href="../styles/pages.css" type="text/css" rel="stylesheet">
+    <link href="../styles/base.css" type="text/css" rel="stylesheet">
+    <link href="../styles/portfolio.css" type="text/css" rel="stylesheet">
   </head>
   <body>
     <section class="bg-image back-image"></section>
     <section class="bg-image top-image"></section>
 
     <header>
-      <nav class="social-nav">
-          <!-- <a class="icon-img" href="mailto:BJeanineH@gmail.com">
-            <img src="../assets/icons/Email-White.svg" alt="Email link">
-            <img src="../assets/icons/Email-black.svg" alt="Email link">
-          </a> -->
-          <p id="homepage-link">
-             <a href="../index.html" alt="Homepage link">HOME</a>
-          </p>
-          <a class="icon-img" href="https://www.linkedin.com/in/jeanniehunnicutt">
-            <img src="../assets/icons/LinkedIn-white.svg" alt="LinkedIn link">
-            <img src="../assets/icons/LinkedIn-black.svg" alt="LinkedIn link">
-          </a>
-          <a class="icon-img" href="https://github.com/BJHunnicutt">
-            <img src="../assets/icons/Github-white.svg" alt="Github link">
-            <img src="../assets/icons/Github-black.svg" alt="Github link">
-          </a>
-      </nav>
-      <nav class="local-nav">
+       <p id="homepage-link">
+          <a id="a" href="../index.html" alt="Homepage link">HOME</a>
+       </p>
+       <nav class="local-nav">
           <ul>
-             <li><a href="../about/cv.html" title="Resume"> CV </a></li>
-             <li><a href="../notes/overview.html" title="Blog"> NOTES </a></li>
-             <li><a href="../projects/overview.html" title="Portfolio"> PROJECTS </a></li>
-             <li><a href="../about/overview.html" title="About Me"> ABOUT </a></li>
+             <li><a id="b" href="../about/cv.html" title="Resume"> CV </a></li>
+             <li><a id="c" href="../notes/overview.html" title="Blog"> NOTES </a></li>
+             <li><a id="d" href="../projects/overview.html" title="Portfolio"> PROJECTS </a></li>
+             <li><a id="e" href="../about/overview.html" title="About Me"> ABOUT </a></li>
           </ul>
-      </nav>
+       </nav>
     </header>
     <main>
 
@@ -42,16 +29,25 @@
          <h3>PROJECTS</h3>
 
          <ul>
-             <li>// Software //</li>
-             <li><a href="https://petsy-app.herokuapp.com" title="Like ETSY, but for Pets!">PETsy</a> | <a href="https://github.com/Erin007/petsy">Github Repo</a> (Team Project) :: Mock eCommerce site using oAuth</li>
-             <a target="_blank" class="project-img" href="../assets/projects/petsy.gif">
-               <img src="../assets/projects/petsy2.jpg" alt="petsy example">
-               <img src="../assets/projects/petsy2.gif" alt="petsy example">
-             </a>
+             <h2>// Software //</h2>
+             <li>
+               <span class="project-wrap">
+                 <div class="project-img-wrap">
+                   <a class="project-img" target="_blank" href="../assets/projects/petsy.gif">
+                     <img src="../assets/projects/petsy2.jpg" alt="petsy example">
+                     <img src="../assets/projects/petsy2.gif" alt="petsy example">
+                   </a>
+                 </div>
+                 <div class="project-info">
+                   <a href="https://petsy-app.herokuapp.com" title="Like ETSY, but for Pets!">PETsy</a> | <a href="https://github.com/Erin007/petsy">Github Repo</a> (Team Project) :: Mock eCommerce site using oAuth
+                 </div>
+               </span>
+             </li>
+             <!-- <br class="clear"/> -->
 
              <li><a href="https://adies-app.herokuapp.com/" title="Farmers Market Finder">FarMar</a> | <a href="https://github.com/ellevargas/FarMarRails.git">Github Repo</a> (Pair Project) :: Farmers market database tool</li>
              <li><a href="https://mediarankerapp.herokuapp.com/" title="Movie, Book &amp; Album Ratings">MediaRanker</a> | <a href="https://github.com/BJHunnicutt/MediaRanker.git">Github Repo</a> (Individual Project) :: First media responsive rails app</li>
-             <li>// Data Science &amp; Visualization //</li>
+             <h2>// Data Science &amp; Visualization //</h2>
              <li><a href="http://www.nature.com/neuro/journal/v17/n9/abs/nn.3780.html" title="A comprehensive thalamocortical projection map">Neural Circuit Map</a> | <a href="https://github.com/BJHunnicutt/anatomy.git">Github Repo</a> (Thesis Project) ::
                 Computational analysis of mouse neural circuits</li>
              <li><a href="http://www.scientificamerican.com/article/men-and-women-alter-a-home-s-bacteria-differently/" title="Men and Women Alter a Home's Bacteria Differently">The Bacteria Game</a> | <a href="http://blogs.scientificamerican.com/sa-visual/the-evolution-of-a-scientific-american-infographic-secret-life-in-household-dust/"
@@ -67,5 +63,23 @@
       </section>
 
     </main>
+
+    <footer>
+       <p id='cdate'> jeannie hunnicutt &copy; 2016 </p>
+       <nav class="social-nav">
+           <!-- <a class="icon-img" href="mailto:BJeanineH@gmail.com">
+             <img src="../assets/icons/Email-White.svg" alt="Email link">
+             <img src="../assets/icons/Email-black.svg" alt="Email link">
+           </a> -->
+           <a class="icon-img" href="https://www.linkedin.com/in/jeanniehunnicutt">
+             <img src="../assets/icons/LinkedIn-white.svg" alt="LinkedIn link" title="LinkedIn">
+             <img src="../assets/icons/LinkedIn-black.svg" alt="LinkedIn link" title="LinkedIn">
+           </a>
+           <a class="icon-img" href="https://github.com/BJHunnicutt">
+             <img src="../assets/icons/Github-white.svg" alt="GitHub link" title="GitHub">
+             <img src="../assets/icons/Github-black.svg" alt="GitHub link" title="GitHub">
+           </a>
+       </nav>
+    </footer>
   </body>
 </html>
