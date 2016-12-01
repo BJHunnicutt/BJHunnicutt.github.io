@@ -20,13 +20,19 @@
 
 #inset-text h1 {
    font-size: 2em;
-   line-height: 2em;
+   padding: 2% 0;
+   text-align: center;
+}
+
+#inset-text h2 {
+   font-size: 1.5em;
+   padding: 2% 0;
    text-align: center;
 }
 
 #inset-text h3 {
    font-size: 1.25em;
-   line-height: 2em;
+   padding: 2% 0;
 }
 
 #inset-text p {
@@ -83,9 +89,11 @@
   position: relative;
 }
 
-/*.project-wrap:hover {
-  background-color: rgba(150, 150, 0, 0.25);
-}*/
+/*get buttons on the same line*/
+form { display: inline;}
+button { box-shadow: 1px 1px 5px rgba(0,0,0,0.3); }
+
+
 
 /* ------------------- Project THumbnails --------------------- */
 
@@ -166,24 +174,12 @@
 
 
 
-/* Adjust the header and images on mobile sizes */
-@media screen and (max-width:450px) {
+/* ----------- Media Queries ----------- */
+
+@media screen and (max-width:600px) {
 
   .project-img-wrap { min-width: 95%; }
 
   .project-info { width: 95%; }
-
-
-  header a {
-      color: black;
-      font-size: 16px;
-      /*background-color: red;*/
-  }
-/*
-  #homepage-link {
-    color: black;
-    font-size: 16px;
-    /*background-color: green;*/
-  }*/
 
 }

@@ -45,7 +45,9 @@ main {
 
 /* ------------------- HEADER --------------------- */
 header {
-    background-color: rgba(150, 150, 150, 0.5);
+    /*background-color: rgba(150, 150, 150, 0.5);*/
+    background-color: white;
+    border-bottom: 1px solid lightgray;
     height: auto;
     width: 100%;
     position: fixed;
@@ -53,9 +55,9 @@ header {
     z-index: 100;
 }
 
-header a, footer a{
-   color: white;
-    text-decoration: none;
+header a , footer a{
+   color: black;
+   text-decoration: none;
 }
 
 
@@ -79,7 +81,7 @@ header a:hover, footer a:hover  {
 }
 
 header li * {
-    color: white;
+    color: black;
     display: inline-block;
     float: right;
     padding: 11px 15px 8px 0px;
@@ -156,3 +158,15 @@ footer {
 }
 
 /* ------------------- end FOOTER --------------------- */
+
+
+/* Adjust the header font on mobile sizes */
+@media screen and (max-width:600px) {
+
+  header a {
+      color: black;
+      font-size: 16px;
+      /*background-color: red;*/
+  }
+
+}
