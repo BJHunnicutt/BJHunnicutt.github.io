@@ -72,7 +72,7 @@ header a:hover, footer a:hover  {
 
 
 .local-nav {
-    width: 75%;
+    width: 80%;
     display: inline-block;
     float: right;
     font-family: "Courier New", Courier, monospace;
@@ -94,7 +94,7 @@ header ul {
 
 #homepage-link {
     display: inline-block;
-    /*float: left;*/
+    float: left;
     font-family: "Courier New", Courier, monospace;
     font-size: 3vw;
     padding: 11px 5px 0 15px;
