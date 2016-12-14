@@ -41,8 +41,9 @@
 
 #inset-text h1 {
    font-size: 2em;
-   line-height: 2em;
+   line-height: 1em;
    text-align: center;
+   padding-bottom: 2%
 }
 
 #inset-text h3 {

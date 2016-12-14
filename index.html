@@ -3,6 +3,7 @@
   <head>
     <title> Portfolio </title>
     <link href="styles/reset_and_normalize.css" type="text/css" rel="stylesheet">
+    <link href="styles/base.css" type="text/css" rel="stylesheet">
     <link href="styles/main.css" type="text/css" rel="stylesheet">
   </head>
   <body>
@@ -10,19 +11,46 @@
     <section class="bg-image top-image"></section>
 
     <header>
-      <nav class="local-nav">
+       <p id="homepage-link">
+          <a id="a" href="index.html" alt="Homepage link">me.</a>
+       </p>
+       <nav class="local-nav">
           <ul>
-             <li><a href="about/cv.html" title="Resume"> CV </a></li>
-             <li><a href="notes/overview.html" title="Blog"> NOTES </a></li>
-             <li><a href="projects/overview.html" title="Portfolio"> PROJECTS </a></li>
-             <li><a href="about/overview.html" title="About Me"> ABOUT </a></li>
+             <li><a id="b" href="about/cv.html" title="Resume"> cv </a></li>
+             <li><a id="c" href="notes/overview.html" title="Blog"> notes </a></li>
+             <li><a id="d" href="projects/overview.html" title="Portfolio"> projects </a></li>
           </ul>
-      </nav>
+       </nav>
     </header>
     <main>
-
-        <div class="name">
+        <div id="name">
           <h2> Barbara </h2><h1>{Jeannie}</h1><h2> Hunnicutt </h2>
+          </br>
+
+          <p>
+            I'm a scientist turned software developer interested in making tools to help turn data into knowledge.
+            </br></br>
+            My scientific research focused on how the brain organizes and computes information, and the challanges I encountered when trying to communicate that information made me realize the need for interactive data visualization tools that will enable scientists to create, explore, and share scientific information more readily.
+          </p>
+
+          <nav id="contact-links">
+            <a class="icon-img" href="mailto:bjeanineh@gmail.com">
+              <img src="assets/icons/Email-black.svg" alt="Email link" title="Email">
+              <img src="assets/icons/Email-gray.svg" alt="Email link" title="Email">
+            </a>
+            <a class="icon-img" href="https://www.linkedin.com/in/jeanniehunnicutt">
+              <img src="assets/icons/LinkedIn-black.svg" alt="LinkedIn link" title="LinkedIn">
+              <img src="assets/icons/LinkedIn-gray.svg" alt="LinkedIn link" title="LinkedIn">
+            </a>
+            <a class="icon-img" href="https://twitter.com/HelloHunnicutt">
+              <img src="assets/icons/Twitter-black.svg" alt="Twitter link" title="Twitter">
+              <img src="assets/icons/Twitter-gray.svg" alt="Twitter link" title="Twitter">
+            </a>
+            <a class="icon-img" href="https://github.com/BJHunnicutt">
+              <img src="assets/icons/Github-black.svg" alt="GitHub link" title="GitHub">
+              <img src="assets/icons/Github-gray.svg" alt="GitHub link" title="GitHub">
+            </a>
+          </nav>
         </div>
 
     </main>
