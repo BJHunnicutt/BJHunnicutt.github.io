@@ -35,7 +35,7 @@ main {
 }
 
 .top-image {
-    background-image: url(../assets/lines-gray-01.png);
+    /*background-image: url(../assets/lines-gray-01.png);*/
     background-size: cover;
     z-index: -1;
 }
@@ -51,6 +51,7 @@ header {
     height: auto;
     width: 100%;
     position: fixed;
+    display: inline-block;
     top: 0;
     z-index: 100;
 }
@@ -74,7 +75,7 @@ header a:hover, footer a:hover  {
 
 
 .local-nav {
-    width: 80%;
+    width: 82%;
     display: inline-block;
     float: right;
     font-family: "Courier New", Courier, monospace;
@@ -120,11 +121,13 @@ footer {
 
 #cdate {
    color: white;
+   /*font-weight: bold;*/
+   line-height: 1.6;
    width: auto;
    height: inherit;
    display: inline-block;
    float: left;
-   padding: 12px 0px 10px 10px;
+   padding: 6px 0px 20px 10px;
 }
 
 .social-nav {
@@ -166,6 +169,12 @@ footer {
   header a {
       color: black;
       font-size: 16px;
+      /*background-color: red;*/
+  }
+
+  #cdate {
+      color: black;
+      /*font-size: 16px;*/
       /*background-color: red;*/
   }
 

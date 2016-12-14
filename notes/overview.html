@@ -1,99 +1,1446 @@
+<!-- Initially Converted MARKDOWN notes to HTML using : https://www.browserling.com/tools/markdown-to-html -->
+<!-- Changes: wrapped each week in article tags, changed weekly titles to 'Ada Week #', added a date to eack week, formatted the table manually, added a page title -->
+
 <!DOCTYPE html>
 <html>
-  <head>
-    <title> Notes </title>
-    <link href="../styles/reset_and_normalize.css" type="text/css" rel="stylesheet">
-    <link href="../styles/base.css" type="text/css" rel="stylesheet">
-    <link href="../styles/pages.css" type="text/css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-    <section class="bg-image back-image"></section>
-    <section class="bg-image top-image"></section>
 
-    <header>
-       <p id="homepage-link">
-          <a id="a" href="../index.html" alt="Homepage link">HOME</a>
-       </p>
-       <nav class="local-nav">
-          <ul>
-             <li><a id="b" href="../about/cv.html" title="Resume"> CV </a></li>
-             <li><a id="c" href="../notes/overview.html" title="Blog"> NOTES </a></li>
-             <li><a id="d" href="../projects/overview.html" title="Portfolio"> PROJECTS </a></li>
-             <li><a id="e" href="../about/overview.html" title="About Me"> ABOUT </a></li>
-          </ul>
-       </nav>
-    </header>
-    <section id="inset-text">
+<head>
+   <title> Notes </title>
+   <link href="../styles/reset_and_normalize.css" type="text/css" rel="stylesheet">
+   <link href="../styles/foundation.css" type="text/css" rel="stylesheet">
+   <link href="../styles/base.css" type="text/css" rel="stylesheet">
+   <link href="../styles/pages.css" type="text/css" rel="stylesheet">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 
-       <section id="posts">
-         <article>
-           <h2> Title </h2>
-           <time datetime="2016-05-01"> May 1st, 2016 </time>
-           <p>
-             Souffle muffin tart lollipop. Brownie chocolate cake ...
-           </p>
-           <a href="/posts/post_one"><button> Read More! </button></a>
-         </article>
+<body>
+   <section class="bg-image back-image"></section>
+   <section class="bg-image top-image"></section>
+
+   <header>
+      <p id="homepage-link">
+         <a id="a" href="../index.html" alt="Homepage link">HOME</a>
+      </p>
+      <nav class="local-nav">
+         <ul>
+            <li><a id="b" href="../about/cv.html" title="Resume"> CV </a></li>
+            <li><a id="c" href="../notes/overview.html" title="Blog"> NOTES </a></li>
+            <li><a id="d" href="../projects/overview.html" title="Portfolio"> PROJECTS </a></li>
+            <li><a id="e" href="../about/overview.html" title="About Me"> ABOUT </a></li>
+         </ul>
+      </nav>
+   </header>
+   <nav>
+     <a href="#title" class="go-to-nav"> Top </a>
+   </nav>
+   <main>
+     <section id="inset-text">
+
+        <h1 id="title"> Weekly Summaries of <a href="http://adadevelopersacademy.org/">ADA</a></h1>
+        <section id="post-summary">
+           <table>
+              <tr>
+                 <th> Date </th>
+                 <th> Week
+                    <th> Topic </th>
+                    <th> Projects </th>
+              </tr>
+              <tr>
+                 <td> Aug 8 </td>
+                 <td> <a href="#week1" class="note-link">Week 01</a> </td>
+                 <td> Orientation, Ruby Basics </td>
+                 <td> Calculator, Random Menu, etc. </td>
+              </tr>
+              <tr>
+                 <td> Aug 15 </td>
+                 <td> <a href="#week2" class="note-link">Week 02</a> </td>
+                 <td> Ruby II (Classes/Objects) </td>
+                 <td> Solar System, Word Guess </td>
+              </tr>
+              <tr>
+                 <td> Aug 22 </td>
+                 <td> <a href="#week3" class="note-link">Week 03</a> </td>
+                 <td> Ruby III (Modules/Namespaces) </td>
+                 <td> Bank Account </td>
+              </tr>
+              <tr>
+                 <td> Aug 29 </td>
+                 <td> <a href="#week4" class="note-link">Week 04</a> </td>
+                 <td> Ruby IV (TDD/Enumerables) </td>
+                 <td> Scrabble.rb </td>
+              </tr>
+              <tr>
+                 <td> Sept 5 </td>
+                 <td> <a href="#week5" class="note-link">Week 05</a> </td>
+                 <td> Ruby V (Use what we know) </td>
+                 <td> FarMar (basic) </td>
+              </tr>
+              <tr>
+                 <td> Sept 12 </td>
+                 <td> <a href="#week6" class="note-link">Week 06</a> </td>
+                 <td> HTTP, DOM, HTML, CSS </td>
+                 <td> Ruby Books, Bill Murray, Meowspace </td>
+              </tr>
+              <tr>
+                 <td> Sept 19 </td>
+                 <td> <a href="#week7" class="note-link">Week 07</a> </td>
+                 <td> <strong>Break Week - No Class</strong> </td>
+                 <td> Portfolio, Door </td>
+              </tr>
+              <tr>
+                 <td> Sept 26 </td>
+                 <td> <a href="#week8" class="note-link">Week 08</a> </td>
+                 <td> Intro to Rails </td>
+                 <td> TaskList Rails </td>
+              </tr>
+              <tr>
+                 <td> Oct 3 </td>
+                 <td> <a href="#week9" class="note-link">Week 09</a> </td>
+                 <td> Rails II (Associations, etc.) </td>
+                 <td> FarMar Rails </td>
+              </tr>
+              <tr>
+                 <td> Oct 10 </td>
+                 <td> <a href="#week10" class="note-link">Week 10</a> </td>
+                 <td> Rails III (Testing) </td>
+                 <td> MediaRanker </td>
+              </tr>
+              <tr>
+                 <td> Oct 17 </td>
+                 <td> <a href="#week11" class="note-link">Week 11</a> </td>
+                 <td> Rails IV (oAuth) </td>
+                 <td> bEtsy </td>
+              </tr>
+              <tr>
+                 <td> Oct 24 </td>
+                 <td> <a href="#week12" class="note-link">Week 12</a> </td>
+                 <td> Rails V (SQL) </td>
+                 <td> bEtsy </td>
+              </tr>
+              <tr>
+                 <td> Oct 31 </td>
+                 <td> <a href="#week13" class="note-link">Week 13</a> </td>
+                 <td> Rails VI (Consuming APIs) </td>
+                 <td> API Muncher (Edamam) </td>
+              </tr>
+              <tr>
+                 <td> Nov 7 </td>
+                 <td> <a href="#week14" class="note-link">Week 14</a> </td>
+                 <td> Rails VII (Creating APIs) </td>
+                 <td> Shipping Service API </td>
+              </tr>
+              <tr>
+                 <td> Nov 14 </td>
+                 <td> <a href="#week15" class="note-link">Week 15</a> </td>
+                 <td> Intro to JavaScript </td>
+                 <td> Scrabble.js, Digital Clock </td>
+              </tr>
+              <tr>
+                 <td> Nov 21 </td>
+                 <td> <a href="#week16" class="note-link">Week 16</a> </td>
+                 <td> JS II (jQuery and AJAX) </td>
+                 <td> Trek, Music Keyboard </td>
+              </tr>
+              <tr>
+                 <td> Nov 28 </td>
+                 <td> <a href="#week17" class="note-link">Week 17</a> </td>
+                 <td> Intro to Backbone.js </td>
+                 <td> Rolodex, Ada Trader </td>
+              </tr>
+              <tr>
+                 <td> Dec 5 </td>
+                 <td> <a href="#week18" class="note-link">Week 18</a> </td>
+                 <td> Interviews </td>
+                 <td> Optional projects </td>
+              </tr>
+              <tr>
+                 <td> Dec 12 </td>
+                 <td> <a href="#week19" class="note-link">Week 19</a> </td>
+                 <td> Backbone.js II </td>
+                 <td> ... </td>
+              </tr>
+              <tr>
+                 <td> Dec 19 </td>
+                 <td> <a href="#week20" class="note-link">Week 20</a> </td>
+                 <td> Backbone.js III </td>
+                 <td> ... </td>
+              </tr>
+              <tr>
+                 <td> Dec 26 </td>
+                 <td> <a href="#week20" class="note-link">Week 21</a> </td>
+                 <td> <strong>Break Week - No Class </strong> </td>
+                 <td> ... </td>
+              </tr>
+              <tr>
+                 <td> Jan 2 </td>
+                 <td> <a href="#week22" class="note-link">Week 22</a> </td>
+                 <td> Capstone Project </td>
+                 <td> Capstone </td>
+              </tr>
+              <tr>
+                 <td> Jan 9 </td>
+                 <td> <a href="#week23" class="note-link">Week 23</a> </td>
+                 <td> Capstone Project </td>
+                 <td> Capstone </td>
+              </tr>
+              <tr>
+                 <td> Jan 16 </td>
+                 <td> <a href="#week24" class="note-link">Week 24</a> </td>
+                 <td> Capstone Project </td>
+                 <td> Capstone </td>
+              </tr>
+              <tr>
+                 <td> Jan 23 </td>
+                 <td> <a href="#week25" class="note-link">Week 25</a> </td>
+                 <td> Capstone Project Presentations </td>
+                 <td> Capstone </td>
+              </tr>
+              <tr>
+                 <td> Feb 6 </td>
+                 <td> </td>
+                 <td> <strong>INTERNSHIP BEGINS</strong> </td>
+                 <td> ... </td>
+              </tr>
+           </table>
+
+           <ul>
+              <li><a href="https://github.com/Ada-C6/weekly-learning-goals">Weekly Learning Goals</a></li>
+           </ul>
+
+           <hr />
+        </section>
+
+        <section id="posts">
+           <article>
+              <h2 id="week1"> Ada Week 1</h2>
+              <h5> August 8, 2016 </h5>
+              <p>This week was focused on getting to know each other, Ada orientation, installing necessary software, going over some computer basics, and recapping the <a href="https://github.com/BJHunnicutt/jump-start">jumpstart curriculum</a>.</p>
+
+              <h3 id="lectures">Lectures</h3>
+
+              <p>Orientation </p>
+
+              <ul>
+                 <li><a href="https://docs.google.com/document/d/1qHEjwaU384Lp4Q7zjtijpnyY_2lIW5dT-bXsjBvA_Qs/edit#">Ada Handbook</a></li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/00-programming-fundamentals/01-how-to-osx.md">How to OS X</a></li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/00-programming-fundamentals/02-intro-to-the-command-line.md">Intro to the Command Line</a> : <a href="https://docs.google.com/presentation/d/1eZywlJ1wxY0HzqhyFS0actGSdko0vszbjuzkVbY8YAs/edit#slide=id.g16204add1d_0_34"> slides</a></li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/00-programming-fundamentals/03-installfest.md">Installfest</a></li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/00-programming-fundamentals/04-get-to-know-your-text-editor.md">Atom Setup</a> : <a href="https://www.dropbox.com/s/kqvsld4n6fau9bu/another-atom-editor-cheat-sheet.pdf?dl=0">cheatsheet</a></li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/04-cs-fundamentals/classroom/00-Imposter-Syndrome.md">Imposter Syndrome</a></li>
+              </ul>
+
+              <p>Ruby</p>
+
+              <ul>
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/01-ruby-fundamentals/01-welcome-to-ruby.md">Intro to Ruby |ruby-01|</a> : <a href="https://docs.google.com/a/adadevelopersacademy.org/presentation/d/1ACuikBLX-grJcV-Vv8UOlrLTc7nEXpsqqUwVvd673CQ/edit?usp=sharing"> slides</a>                  </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/01-ruby-fundamentals/02-intro-to-object-types.md">Object Types |ruby-02|</a> : <a href="https://docs.google.com/presentation/d/1aR2gKdEiBu9HjliI8qQb7X4x_RoVFYu9DKOjxT5dnfc/edit#slide=id.p">slides</a>
 
 
-         <article>
-           <h2> Title 2 </h2>
-           <time datetime="2016-05-01"> May 1st, 2016 </time>
-           <p>
-             Souffle muffin tart lollipop. Brownie chocolate cake ...
-           </p>
-           <a href="/posts/post_two"><button> Read More! </button></a>
-         </article>
+                    <ul>
+                       <li>String / Symbol / Fixnum / Float</li>
+                    </ul>
+                 </li>
 
-         <article>
-           <h2> Title 2 </h2>
-           <time datetime="2016-05-01"> May 1st, 2016 </time>
-           <p>
-             Souffle muffin tart lollipop. Brownie chocolate cake ...
-           </p>
-           <a href="/posts/post_two"><button> Read More! </button></a>
-         </article>
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/01-ruby-fundamentals/03-iteration-and-blocks.md">Iteration &amp; Blocks |ruby-03|</a> : <a href="https://docs.google.com/a/adadevelopersacademy.org/presentation/d/1pyMdAmDvR9BKbi_gVu3aDY3baRDc-T8kVDAgGPn5oc8/edit?usp=sharing">slides</a>
 
-         <article>
-           <h2> Title 2 </h2>
-           <time datetime="2016-05-01"> May 1st, 2016 </time>
-           <p>
-             Souffle muffin tart lollipop. Brownie chocolate cake ...
-           </p>
-           <a href="/posts/post_two"><button> Read More! </button></a>
-         </article>
 
-         <article>
-           <h2> Title 2 </h2>
-           <time datetime="2016-05-01"> May 1st, 2016 </time>
-           <p>
-             Souffle muffin tart lollipop. Brownie chocolate cake ...
-           </p>
-           <a href="/posts/post_two"><button> Read More! </button></a>
-         </article>
-       </section>
-    </section>
-    <footer>
-       <p id='cdate'> jeannie hunnicutt &copy; 2016 </p>
-       <nav class="social-nav">
-           <!-- <a class="icon-img" href="mailto:BJeanineH@gmail.com">
+                    <ul>
+                       <li>.each</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/01-ruby-fundamentals/04-comparisons-and-flow-control.md">Comparisons &amp; Control Flows |ruby-04|</a> : <a href="https://docs.google.com/presentation/d/1pMNj-_xWTQQ5LEkUNYzCmtt8Gd9ujlKL47j_UtVOIhk/edit?usp=sharing">slides</a>
+
+
+                    <ul>
+                       <li>i.e. booleans &amp; conditional loops</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/01-ruby-fundamentals/05-compound-and-complex-conditionals.md">Compound &amp; Complex Conditionals |ruby-05|</a> : <a href="https://docs.google.com/a/adadevelopersacademy.org/presentation/d/1OcQiOG_7Bemdq5CnpIZ1PSBjV1Y5L8ggoPUpHR_nS64/edit?usp=sharing">slides</a>
+
+
+                    <ul>
+                       <li>&amp;&amp; || ==, case statements, while &amp; until loops</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/01-ruby-fundamentals/06-oo-methods.md">Methods |ruby-06|</a> : <a href="https://docs.google.com/presentation/d/1fFCpIcq4GZ42d1-cIMJOPnPGCeNsyZOXD8OMxpPEiko/edit?usp=sharing">slides</a>
+
+
+                    <ul>
+                       <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/01-ruby-fundamentals/02b-activity-methods-divide-and-conquor.md">Examples</a></li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/01-ruby-fundamentals/06-literals.md">Literals</a>
+
+
+                    <ul>
+                       <li>e.g. "", %w, etc.</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/01-ruby-fundamentals/02a-data-structures.md">Hashes &amp; Arrays |ruby-02a|</a> : <a href="https://docs.google.com/a/adadevelopersacademy.org/presentation/d/1uM-wZaXHC4LXCwr8eEqbXQXZkbBcGP8jvW8_iLMuVls/edit?usp=sharing">slides</a></li>
+              </ul>
+
+              <h3 id="helpfullinks">Helpful Links</h3>
+
+              <p><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/01-ruby-fundamentals/03a-loop-table-worksheet.md">Loop Table Worksheet</a> <br />
+                 <a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/01-ruby-fundamentals/05a-conditions-worksheet.md">Conditionals Worksheet</a></p>
+
+              <h3 id="projects">Projects</h3>
+
+              <p><a href="https://github.com/AdaGold/standalone-exercises/blob/master/hours-in-a-year.md">Hours In a Year</a> : <a href="https://gist.github.com/BJHunnicutt/a7289ad6e5a0e10f5a343757fca9213b">gist</a> <br />
+                 <a href="https://github.com/AdaGold/standalone-exercises/blob/master/calculator.md">Calculator</a> : <a href="https://gist.github.com/BJHunnicutt/4efa300cd9e3ecae10f303774f300f58">gist</a> <br />
+                 <a href="https://github.com/AdaGold/standalone-exercises/blob/master/random-menu-generator.md">Random Menu Generator</a> : <a href="https://gist.github.com/BJHunnicutt/9291d1949ebcbfc592f55e784465ac7f">gist</a> <br />
+                 <a href="https://github.com/Ada-C6/rainbows">Rainbows</a> : <a href="https://gist.github.com/BJHunnicutt/c78ceaae54cc1014cbf04e6e61f486d9">gist</a> <br />
+                 <a href="https://github.com/AdaGold/mood-analysis">Mood Generator</a> : <a href="https://gist.github.com/BJHunnicutt/1c5d66ece2db6c56cee1f37f3ff53a0a">gist</a> </p>
+
+              <hr />
+           </article>
+           <article>
+              <h2 id="week2"> Ada Week 2</h2>
+              <h5> August 15, 2016 </h5>
+              <p>Get familiar with Ruby objects/classes, object-oriented programming, and git (Solar System &amp; Word Guess).</p>
+
+              <h3 id="lectures-1">Lectures</h3>
+
+              <p>Ruby</p>
+
+              <ul>
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/01-ruby-fundamentals/07-oo-classes.md">Object Orientation |ruby-07|</a> : <a href="https://github.com/PilgrimMemoirs/oo_intro">code along</a> &amp; <a href="https://github.com/PilgrimMemoirs/oo_intro/tree/class-code">solution</a>
+
+
+                    <ul>
+                       <li>Classes: initialize, attr_accessor/reader/writer</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/01-ruby-fundamentals/08-variables-and-scope.md">Variables &amp; Scope |ruby-08|</a>
+
+
+                    <ul>
+                       <li>Local: (a-z, _) &amp; Instance: (@)</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/01-ruby-fundamentals/09-hashes-classes-and-you.md">Classes, Hashes, and You |ruby-09|</a> : <a href="https://github.com/PilgrimMemoirs/classes_hashes_and_you_demo">code along</a>
+
+
+                    <ul>
+                       <li>Initialize a new class with a hash</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/01-ruby-fundamentals/10-default-values-in-methods.md">Default Values in Methods |ruby-10|</a> : <a href="https://docs.google.com/presentation/d/1ifhG3r30N5w8UBc4HKPzvntTlxifnf3T0L-QfEjL6GU/edit#slide=id.p">slides</a>                  &amp; <a href="https://github.com/CheezItMan/DefaultArguments/blob/master/Die.rb">code along</a>
+
+
+                    <ul>
+                       <li>i.e. Default arguments</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/01-ruby-fundamentals/11-intro-to-ruby-gems.md">Gems |ruby-11|</a> : <a href="https://docs.google.com/presentation/d/1_xG25hHrutMQGVqTdNuMkjoPA5rhSwZfQDl6pJHgR1k/edit?usp=sharing">slides</a></li>
+              </ul>
+
+              <p>Other</p>
+
+              <ul>
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/00-programming-fundamentals/07-intro-to-git.md">Intro to Git</a> : <a href="https://docs.google.com/presentation/d/1CjziAvZx3x9-LYGfipHUVDEBL5Rj8C0KBdfMrT3cwyA/edit?usp=sharing">slides</a></li>
+              </ul>
+
+              <h3 id="helpfullinks-1">Helpful Links</h3>
+
+              <p><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/01-ruby-fundamentals/07a-oo-worksheet.md">Objects Worksheet</a> <br />
+                 <a href="http://gitimmersion.com/">Git Immersion</a></p>
+
+              <h3 id="projects-1">Projects</h3>
+
+              <p><a href="https://github.com/Ada-C6/Solar-System">Solar System</a> : <a href="https://gist.github.com/BJHunnicutt/56800e3a69aeb2c67b7c527e282a340c">Wave 1</a> : <a href="https://gist.github.com/BJHunnicutt/a5ad4f18517ea13be62bdbd50f467d6a">Wave 2</a>               <br />
+                 <a href="https://github.com/AdaGold/standalone-exercises/blob/master/fancify-baby-dragon.md">Baby Dragon</a> (<a href="https://www.dropbox.com/s/d7v4cydzcb8mx6w/learn-to-program_p5_0.pdf?dl=0">Learn To Program</a> Ch. 13) <br />
+                 <a href="https://github.com/BJHunnicutt/word-guess-csv">Word Guess</a> : <a href="https://gist.github.com/BJHunnicutt/beb68b69d788ba4125312b4f69924331">gist</a> - Paired with Leah </p>
+
+              <hr />
+           </article>
+           <article>
+              <h2 id="week3"> Ada Week 3</h2>
+              <h5> August 22, 2016 </h5>
+              <p>Create a full Ruby program with interactions and dependencies. Introduced testing, modules &amp; namespaces, and class Inheritance (Bank Account).</p>
+
+              <h3 id="lectures-2">Lectures</h3>
+
+              <p>Ruby</p>
+
+              <ul>
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/00-programming-fundamentals/06-intro-to-automated-tests.md">Intro to Automated Testing</a> : <a href="https://docs.google.com/presentation/d/16tOZLwQUceyMW5S3kejy25PAJtaXUYlGDu_CK3-YYSM/edit">slides</a>                  &amp; <a href="https://github.com/Ada-C6/AutomatedTesting">code along</a>
+
+
+                    <ul>
+                       <li>Assertions &amp; Exceptions</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/02-intermediate-ruby/02-modules-as-namespaces.md">Modules &amp; Namespaces |int-ruby-02|</a> : <a href="https://github.com/PilgrimMemoirs/module_exercise">code along</a>
+
+
+                    <ul>
+                       <li>Grouping classes in modules, requiring files, constants</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/02-intermediate-ruby/04-csv-as-a-database.md">Reading CSVs |int-ruby-04|</a> : <a href="https://docs.google.com/presentation/d/1JqicICfUmzw7VuXL-g7_j09ZBY_HMMNfByaUC5PiJrM/edit#slide=id.p">slides</a>                  &amp; <a href="https://github.com/Ada-C6/CSV-Sample-Code">code along</a></li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/02-intermediate-ruby/03-class-methods-and-self.md#class-methods--self">Self &amp; Class Methods |int-ruby-03|</a> : <a href="https://github.com/PilgrimMemoirs/class_methods">code along</a></li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/02-intermediate-ruby/01-advanced-variables.md">Advanced Variables |int-ruby-01|</a> : <a href="https://docs.google.com/presentation/d/1wD5nqSFvyRFsmrqdvHvk45BCUD7yau483WrDcLkul0s/edit">slides</a>                  &amp; <a href="https://github.com/Ada-C6/AdvancedVariables_sample">code along</a> <br />
+
+
+                    <ul>
+                       <li>Class variable: (@@), Global variable: ($), Constant: (ALL_CAPS)</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/02-intermediate-ruby/05-object-composition.md#object-composition">Object Composition |int-ruby-05|</a> : <a href="https://docs.google.com/presentation/d/1xphxs938-8O4uTbz3lOVnatcAIPbIJUhPTYJZGlb0Sg/edit">slides</a>
+
+
+                    <ul>
+                       <li>has-a, is-a, and acts-like</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/02-intermediate-ruby/06-object-inheritance.md#object-inheritance">Object Inheritance |int-ruby-06|</a> : <a href="https://github.com/PilgrimMemoirs/class_inheritance">code along</a>
+
+
+                    <ul>
+                       <li>base/parent classes, sub/child classes, super </li>
+                    </ul>
+                 </li>
+              </ul>
+
+              <p>CS-Fundamentals</p>
+
+              <ul>
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/04-cs-fundamentals/classroom/02-ADTs-Stacks-Queues.md">Stacks &amp; Queues |CS-02|</a></li>
+              </ul>
+
+              <h3 id="helpfullinks-2">Helpful Links</h3>
+
+              <p><a href="https://github.com/BJHunnicutt/ruby_koans">Ruby Koans</a> </p>
+
+              <h3 id="projects-2">Projects</h3>
+
+              <p><a href="https://github.com/BJHunnicutt/weekend-warrior/tree/master/01-leap">Weekend Warrior - Leap Year</a> : <a href="https://gist.github.com/BJHunnicutt/ae5a91b8fc077f3f5e37a9c17627e579">gist</a> <br />
+                 <a href="https://github.com/BJHunnicutt/weekend-warrior/tree/master/02-12Days">Weekend Warrior - 12 Days</a> <br />
+                 <a href="https://github.com/BJHunnicutt/BankAccounts">Bank Account</a> : <a href="https://github.com/BJHunnicutt/BankAccounts/blob/master/bank_account.rb">Wave 1</a>, <a href="https://github.com/BJHunnicutt/BankAccounts/blob/master/bank_account2.rb">Wave 2</a>,
+                 <a href="https://github.com/BJHunnicutt/BankAccounts/blob/master/bank_account3.rb">Wave 3</a>, <a href="https://github.com/BJHunnicutt/BankAccounts/blob/master/bank_account4.rb">Optionals</a></p>
+
+              <hr />
+           </article>
+           <article>
+
+              <h2 id="week4"> Ada Week 4</h2>
+              <h5> August 29, 2016 </h5>
+              <p>More practice creating a Ruby App with automated testing. Look through this weeks notes for a refresher on setting up TDD in Ruby (Scrabble).</p>
+
+              <h3 id="lectures">Lectures</h3>
+
+              <p>Ruby</p>
+
+              <ul>
+                 <li><a href="https://github.com/CheezItMan/Parallel_Assignment">Parallel Assignment</a></li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/02-intermediate-ruby/07-enumerable.md">Enumerables |int-ruby-07|</a>
+
+
+                    <ul>
+                       <li>Mixins and built-in iteration methods (e.g. min, min<em>by, select, reject, inject, detect, group</em>by, zip)</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/Ada-C6/Project_walkthrough">Minitest Walkthrough</a> : <a href="https://github.com/Ada-C6/Roman_Number">code along</a> &amp; <a href="https://github.com/CheezItMan/FizzBuzz">solution</a>
+
+
+                    <ul>
+                       <li>Setup a Ruby project environment</li>
+
+                       <li>Build a specification using Minitest</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/CheezItMan/Project_walkthrough/blob/master/simplecov.md">Simplecov</a> : <a href="https://github.com/colszowka/simplecov">source</a>
+
+
+                    <ul>
+                       <li>Combining simplecov calculations with Minitest </li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/02-intermediate-ruby/08-more-conditionals.md">More Conditionals |int-ruby-08|</a> <br />
+
+
+                    <ul>
+                       <li>Ternary Operator, Single-line Conditionals, Compound Operators</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/02-intermediate-ruby/09-more-enumerable.md">Hash Enumerables</a></li>
+              </ul>
+
+              <h3 id="projects">Projects</h3>
+
+              <p><a href="https://github.com/jchung722/Scrabble">Scrabble</a> - Paired with Jessica </p>
+
+              <hr />
+           </article>
+           <article>
+
+              <h2 id="week5"> Ada Week 5</h2>
+              <h5> September 5, 2016 </h5>
+              <p>Went more in depth with git and reinforced everything in Ruby thus far (FarMar Ruby).</p>
+
+              <h3 id="lectures-1">Lectures</h3>
+
+              <p>Git</p>
+
+              <ul>
+                 <li><a href="https://github.com/github/gitignore">gitignore</a></li>
+
+                 <li><a href="https://gist.github.com/lsavino/77ac7bdc4751d0b504233df1be097ca6">Advanced (Beginner) Git with Laura</a>
+
+
+                    <ul>
+                       <li>Command line prompt git color-coding</li>
+
+                       <li>Git shortcuts</li>
+                    </ul>
+                 </li>
+              </ul>
+
+              <p>CS-Fundamentals</p>
+
+              <ul>
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/04-cs-fundamentals/classroom/03-Sorting-Efficiency.md">Sorting &amp; Efficiency |CS-03|</a> : <a href="https://github.com/BJHunnicutt/big-o">Big-O</a></li>
+              </ul>
+
+              <h3 id="helpfullinks">Helpful Links</h3>
+
+              <p><a href="http://www.codequizzes.com/computer-science/beginner/big-o-algorithms">Big-O Quiz</a> </p>
+
+              <h3 id="projects-1">Projects</h3>
+
+              <p><a href="https://github.com/BJHunnicutt/weekend-warrior/tree/master/03-hamming">Weekend Warrior - Hamming</a> <br />
+                 <a href="https://github.com/BJHunnicutt/FarMar">FarMar</a></p>
+
+              <hr />
+           </article>
+           <article>
+
+              <h2 id="week6"> Ada Week 6</h2>
+              <h5> September 12, 2016 </h5>
+              <p>And now, here is absolutely everything about HTML &amp; CSS... (Meowspace).</p>
+
+              <h3 id="lectures-2">Lectures</h3>
+
+              <p>HTML/CSS</p>
+
+              <ul>
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/05-html-css/01-the-web.md">Intro to the Web |html-css-01|</a></li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/05-html-css/02-html-intro.md">HTML Intro |html-css-02|</a></li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/05-html-css/03-css-intro.md">CSS Intro |html-css-03|</a></li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/05-html-css/04-content-hierarchy.md">Content Heirarchy |html-css-04|</a>
+
+
+                    <ul>
+                       <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/html-css-build/05-html-css/00-semantics-best-practices.md">Semantic HTML</a>: body, header, nav, article, aside, footer, etc...</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/05-html-css/05-attributes-classes_ids.md">Attributes, Classes &amp; IDs |html-css-05|</a> : <a href="https://docs.google.com/presentation/d/19Y3E3GOMTK84bsjCAgrU7vfN4gSXHAgSfn0ZJMZWLsM/edit#slide=id.g16b03833a4_0_161">slides</a>                  </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/05-html-css/09-cascade-inheritance.md">Cascade &amp; Inheritence |html-css-09|</a> : <a href="https://docs.google.com/presentation/d/19Y3E3GOMTK84bsjCAgrU7vfN4gSXHAgSfn0ZJMZWLsM/edit#slide=id.g16b03833a4_0_161">slides</a></li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/05-html-css/10-dev-tools-into-default-styles.md">Developer Tools |html-css-10|</a></li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/05-html-css/06-css-selectors.md">CSS Selectors |html-css-06|</a> : <a href="https://docs.google.com/presentation/d/19Y3E3GOMTK84bsjCAgrU7vfN4gSXHAgSfn0ZJMZWLsM/edit#slide=id.g16b03833a4_0_214">slides</a>
+
+
+                    <ul>
+                       <li>Pseudo-classes &amp; pseudo-elements (i.e :hover, ::after, etc.)</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/html-css-build/05-html-css/11-box-model.md">Box Model |html-css-11|</a>
+
+
+                    <ul>
+                       <li>Margin, border, padding, and absolute vs relative elements</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/html-css-build/05-html-css/12-layout-display.md">Display |html-css-12|</a>
+
+
+                    <ul>
+                       <li>Block, Inline-block, Inline</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/html-css-build/05-html-css/13-layout-floats.md">Floats |html-css-13|</a></li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/html-css-build/05-html-css/00-alt-text.md">Alt Text</a></li>
+              </ul>
+
+              <p>CS-Fundamentals</p>
+
+              <ul>
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/04-cs-fundamentals/classroom/04-Intro-to-Recursion.md">Recurrsion |CS-04|</a> : <a href="https://docs.google.com/presentation/d/1nnjCzrJ1-j-4t20Je0o5KgOa1-N53WQuOywApqsmqxc/edit#slide=id.p">slides</a>
+
+
+                    <ul>
+                       <li><a href="https://github.com/AdaGold/recursion">Examples</a></li>
+                    </ul>
+                 </li>
+              </ul>
+
+              <h3 id="helpfullinks-1">Helpful Links</h3>
+
+              <p><a href="https://www.smashingmagazine.com/2016/05/an-ultimate-guide-to-css-pseudo-classes-and-pseudo-elements/">Ultimate Guide to pseudo-classes</a> <br />
+                 <a href="http://flukeout.github.io/">CSS Dinner Game</a> </p>
+
+              <h3 id="projects-2">Projects</h3>
+
+              <p><a href="https://github.com/BJHunnicutt/build_your_first_website">Ruby Books (First Website)</a> <br />
+                 <a href="https://github.com/BJHunnicutt/css_classes_and_ids_practice">Bill Murray (Classes &amp; IDs Practice)</a> <br />
+                 <a href="https://github.com/BJHunnicutt/meowspace">Meowspace (Layout Practice)</a> </p>
+
+              <hr />
+           </article>
+           <article>
+
+              <h2 id="week7"> Ada Week 7</h2>
+              <h5> September 19, 2016 </h5>
+              <p>Break Week + create a static (HTML/CSS only) personal <a href="https://github.com/Ada-C6/static-site">portfolio website</a> with <a href="https://pages.github.com/">github pages</a>.</p>
+
+              <h3 id="projects-3">Projects</h3>
+
+              <p><a href="https://github.com/BJHunnicutt/BJHunnicutt.github.io">Portfolio</a> <br />
+                 <a href="https://github.com/Ada-C6/door">Door Exercise</a></p>
+
+              <hr />
+           </article>
+           <article>
+
+              <h2 id="week8"> Ada Week 8</h2>
+              <h5> September 26, 2016 </h5>
+              <p>Ruby. On. Rails. All of it. (Kind of). Best practices for software design (RESTful routing, MVC, CRUD) and how to approach debugging (TaskListRails).</p>
+
+              <h3 id="lectures-3">Lectures</h3>
+
+              <p>Rails</p>
+
+              <ul>
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/08-rails/01-http-and-the-internet.md">HTTP and the Internet  |rails-01|</a>
+
+
+                    <ul>
+                       <li>web server, client, network, request, response</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/08-rails/02-what-is-ruby-on-rails.md">What is rails? |rails-02|</a>
+
+
+                    <ul>
+                       <li>Setup &amp; file structure</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/08-rails/03-http-verbs-crud-and-idempotency.md">CRUD |rails-03|</a>
+
+
+                    <ul>
+                       <li>HTTP Verbs, CRUD, and Idempotency</li>
+
+                       <li><strong>C</strong>reate:POST, <strong>R</strong>ead:GET <strong>U</strong>pdate:PUT and <strong>D</strong>elete:DELETE<strong>.</strong></li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/08-rails/04-mvc-and-restful-routing.md">MVC &amp; RESTful Routing |rails-04|</a> <br />
+
+
+                    <ul>
+                       <li>model, view, controller</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/08-rails/05-routes-controllers-and-views.md">Routes, Controllers &amp; Views |rails-05|</a> : <a href="https://docs.google.com/presentation/d/1RkGA-J5bbuCB6sVchJ0G4oRt9myYUTEjeasr73AQrVw/edit#slide=id.g17f9b9362d_0_39">slides</a></li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/08-rails/06-ERB-and-Layouts.md">ERB &amp; Layouts |rails-06|</a>
+
+
+                    <ul>
+                       <li>Embedded Ruby, &lt;%= yield %></li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/08-rails/07-active-record-migrations.md">Active Record Migrations |rails-07|</a> : <a href="https://github.com/BJHunnicutt/roster-ar-intro">livecode</a> <br />
+
+
+                    <ul>
+                       <li>Changing models</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/08-rails/08-active-record-models.md">Active Record Models |rails-08|</a>
+
+
+                    <ul>
+                       <li>new/create, built-in methods, etc.</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/08-rails/09-common-view-helpers.md">View Helpers |rails-09|</a> : <a href="https://docs.google.com/presentation/d/1XXlx7XuL066eXhSwQuRjAhzGEjWw-1TTMXM6gvJ_Cwk/edit#slide=id.p">slides</a>
+
+
+                    <ul>
+                       <li>Shorthand to generate HTML: link<em>to, image</em>tag, button_to, <a href="http://guides.rubyonrails.org/action_view_overview.html#overview-of-helpers-provided-by-action-view">etc.</a></li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/08-rails/10-rails-forms.md">Rails Forms |rails-10|</a> : <a href="https://docs.google.com/presentation/d/1WFw1KRQi3cG_WPEglBTAWQ-0U8AiBZlqU9thexmBUyA/edit#slide=id.p">slides</a>
+
+
+                    <ul>
+                       <li>form<em>tag &amp; form</em>for</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/08-rails/11-rails-request-state.md">Bettor Errors / Request State |rails-11|</a>
+
+
+                    <ul>
+                       <li>raise, puts, and inspect</li>
+                    </ul>
+                 </li>
+              </ul>
+
+              <p>Leadership &amp; Inclusion</p>
+
+              <ul>
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/03-leadership-and-inclusion/04-Leadership-Skills.md">Leadership Skills |LI-04|</a>
+
+
+                    <ul>
+                       <li><a href="https://docs.google.com/document/d/1ofPhDm1NBC1pes6hil5xHQGY8P9jd7S8R-sooXBXF14/edit">Ada Expectations</a>, <a href="https://drive.google.com/file/d/0B3xlasEt9caBa21xeTVBM1BCd1U/view">Amazon Leadership Principles</a></li>
+                    </ul>
+                 </li>
+              </ul>
+
+              <p>CS-Fundamentals</p>
+
+              <ul>
+                 <li><a href="https://github.com/Ada-C6/cs-fun-practice/blob/master/cs-fun-practice-1.md">Algorithm Practice</a></li>
+              </ul>
+
+              <h3 id="helpfullinks-2">Helpful Links</h3>
+
+              <p><a href="http://railsforzombies.org/levels/1">Rails for Zombies</a> <br />
+                 <a href="https://www.youtube.com/watch?v=3mQjtk2YDkM">MVC in Rails video</a> <br />
+                 <a href="http://archive.oreilly.com/pub/a/ruby/excerpts/ruby-learning-rails/intro-ruby-relational-db.html">Relational Databases Description</a> <br />
+                 <a href="https://trello.com/">Trello</a></p>
+
+              <h3 id="projects-4">Projects</h3>
+
+              <p><a href="https://github.com/BJHunnicutt/ceasar-cipher">Caesar Cipher</a> : <a href="https://rubygems.org/gems/caesar/versions/0.3">gem</a> <br />
+                 <a href="https://github.com/BJHunnicutt/TaskListRails">TaskListRails</a> </p>
+
+              <hr />
+           </article>
+           <article>
+
+              <h2 id="week9"> Ada Week 9</h2>
+              <h5> October 3, 2016 </h5>
+              <p>More in-depth Rails: Active Record associations &amp; validations, partials, database seeds, Heroku, et al (FarMar Rails).</p>
+
+              <h3 id="lectures-4">Lectures</h3>
+
+              <p>Rails</p>
+
+              <ul>
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/08-rails/12-active-record-relationships.md">Active Record Relationships |rails-12|</a> : <a href="https://docs.google.com/presentation/d/1E9uj2Omq5tLNATGyODKnCN8yjYilWZTf8s1-vGWvqTM/edit#slide=id.p">slides</a>
+
+
+                    <ul>
+                       <li>has<em>many &amp; belongs</em>to</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/08-rails/14-active-record-validations.md">Active Record Validations |rails-14|</a>
+
+
+                    <ul>
+                       <li><a href="http://edgeguides.rubyonrails.org/active_record_validations.html">Validations</a>, helpers (e.g. presence: true), errors</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/08-rails/14-db-seeds.md">Database Seeds |rails-14|</a>
+
+
+                    <ul>
+                       <li>params livecode notes have a good example</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/08-rails/16-partial-views.md">Partials |rails-16|</a> : <a href="https://docs.google.com/presentation/d/1LGzYe1pfnZmTJvzyS_r4KVMTlxrbJwoo58Y2ikmmtbo/edit?usp=sharing">slides</a>
+
+
+                    <ul>
+                       <li>Used these well in Mediaranker</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/08-rails/00-Deploying-to-Heroku.md">Rails to Heroku!</a></li>
+              </ul>
+
+              <p>Other</p>
+
+              <ul>
+                 <li><a href="http://www.vivekmchawla.com/erd-crows-foot-relationship-symbols-cheat-sheet/">Entity Relationship Diagrams (ERD)</a> - <a href="http://ondras.zarovi.cz/sql/demo/">demo</a> : <a href="https://docs.google.com/presentation/d/1Udd7kLRaY2dlkzvASsbsFYGjOvGQAcABmkUTyTUeHsQ/edit?usp=sharing">slides</a></li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/00-programming-fundamentals/10-intro-to-agile.md">Intro to Agile</a> : <a href="https://docs.google.com/presentation/d/1GGQH0AO3pWlAWWm9ZI4oP0trJaeug9UoaQaEw9qxd-0/edit#slide=id.p">slides</a>                  <br />
+
+
+                    <ul>
+                       <li><a href="https://www.mountaingoatsoftware.com/agile/user-stories">User stories</a>, stand ups, Kaban</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/00-programming-fundamentals/11-managing-git-branches.md">Git Branching</a> : <a href="https://docs.google.com/presentation/d/1LGzYe1pfnZmTJvzyS_r4KVMTlxrbJwoo58Y2ikmmtbo/edit?usp=sharing">slides</a></li>
+              </ul>
+
+              <p>CS-Fundamentals</p>
+
+              <ul>
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/04-cs-fundamentals/classroom/05-Mergesort.md">Implementing Mergesort |CS-05|</a> : <a href="https://github.com/BJHunnicutt/mergesort">assignment</a></li>
+              </ul>
+
+              <h3 id="helpfullinks-3">Helpful Links</h3>
+
+              <p><a href="https://github.com/voormedia/rails-erd">Rails ERD Gem</a> <br />
+                 <a href="http://www.rexegg.com/regex-quickstart.html">Regex cheatsheet</a> </p>
+
+              <h3 id="projects-5">Projects</h3>
+
+              <p><a href="https://github.com/ellevargas/FarMarRails">FarMar Rails</a> : <a href="https://adies-app.herokuapp.com/">Heroku site</a> - Paired with Elle </p>
+
+              <hr />
+           </article>
+           <article>
+
+              <h2 id="week10"> Ada Week 10</h2>
+              <h5> October 10, 2016 </h5>
+              <p>Implementing responsive web design using the CSS framework Foundation &amp; adding automated controller and model testing in Rails (MediaRanker).</p>
+
+              <h3 id="lectures-5">Lectures</h3>
+
+              <p>Rails</p>
+
+              <ul>
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/08-rails/13-routes-and-resources.md">Routes &amp; Resources |rails-13|</a>
+
+
+                    <ul>
+                       <li>Manually and automatically </li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/08-rails/17-unit-testing-models-asserts.md">Unit Testing Models |rails-17|</a> : <a href="https://docs.google.com/presentation/d/1OPEq0kc_Su4AjVrKjE6dna1yWkHTls_8M6L96sRPpUE/edit?usp=sharing">slides</a>
+
+
+                    <ul>
+                       <li>Minitest &amp; Fixture data</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/08-rails/18-testing-controllers.md">Testing Controllers |rails-18|</a>
+
+
+                    <ul>
+                       <li>HTTP verb/actions, parameters, &amp; fixtures</li>
+
+                       <li>music_albums <a href="https://github.com/BJHunnicutt/music_albums">livecode</a></li>
+                    </ul>
+                 </li>
+              </ul>
+
+              <p>Other</p>
+
+              <ul>
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/05-html-css/15-css-framework.md">Foundation (CSS Framework) |html-css-15|</a> : <a href="https://docs.google.com/presentation/d/1Alh1cvc36U06IPn1bZvIt6ceBSlyXVg45ykJhLGqkAc/edit?usp=sharing">slides</a>
+
+
+                    <ul>
+                       <li><a href="https://github.com/Ada-C6/foundation_framework_intro">Demo</a></li>
+
+                       <li>Mobile First, Grid Layout, Viewport</li>
+                    </ul>
+                 </li>
+              </ul>
+
+              <p>CS-Fundamentals</p>
+
+              <ul>
+                 <li><a href="https://github.com/Ada-C6/cs-fun-practice/blob/master/cs-fun-practice-2.md">Another Algorithm Practice</a></li>
+              </ul>
+
+              <h3 id="helpfullinks-4">Helpful Links</h3>
+
+              <p><a href="http://blog.teamtreehouse.com/modern-field-guide-responsive-web-design">Article on Responsive Web Design</a></p>
+
+              <h3 id="projects-6">Projects</h3>
+
+              <p><a href="https://github.com/BJHunnicutt/MediaRanker">Mediaranker</a> : <a href="https://mediarankerapp.herokuapp.com/">Heroku site</a> - Rails set up fully documented in notes</p>
+
+              <hr />
+           </article>
+           <article>
+
+              <h2 id="week11"> Ada Week 11</h2>
+              <h5> October 17, 2016 </h5>
+              <p>Adding oAuth to Rails &amp; testing it, DRYing up Rails code with View Helpers &amp; Controller Filters (bEtsy).</p>
+
+              <h3 id="lectures-6">Lectures</h3>
+
+              <p>Rails</p>
+
+              <ul>
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/09-intermediate-rails/01-session-and-oauth.md">Sessions &amp; oAuth |int-rails-01|</a> : <a href="https://docs.google.com/presentation/d/1lIQ4F8gpXwaIEBHlsussoIEN31sqCY2upGIV_L81zi4/edit#slide=id.p">slides</a>                  <br />
+
+
+                    <ul>
+                       <li>OmniAuth Gem &amp; Github, modeling users, &amp; Session variables</li>
+
+                       <li>See login example &amp; oAuth notes </li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/09-intermediate-rails/02-controller-filters.md">Controller Filters |int-rails-02|</a>
+
+
+                    <ul>
+                       <li>before<em>action/after</em>action to DRY up code</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/09-intermediate-rails/03-testing-auth.md">Testing Sessions (oAuth) |int-rails-03|</a></li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/09-intermediate-rails/04-advanced-validations.md">Advanced Validations |int-rails-04|</a></li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/09-intermediate-rails/05-view-helpers.md">(Custom) View Helpers |int-rails-05|</a>
+
+
+                    <ul>
+                       <li>Rendering a small, simple piece of a webpage</li>
+
+                       <li>html_safe</li>
+                    </ul>
+                 </li>
+              </ul>
+
+              <p>CS-Fundamentals</p>
+
+              <ul>
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/04-cs-fundamentals/classroom/06-Array-vs-LinkedList.md">Linked Lists |CS-06|</a></li>
+              </ul>
+
+              <h3 id="helpfullinks-5">Helpful Links</h3>
+
+              <p><a href="https://devcenter.heroku.com/articles/config-vars">Setting Environment Variables in Heroku</a> <br />
+                 <a href="https://www.codecademy.com/learn/rails-auth">CodeAcademy oAuth</a> </p>
+
+              <h3 id="notetoself">Note-To-Self</h3>
+
+              <ul>
+                 <li>Notes have details about dealing with git merge conflicts</li>
+              </ul>
+
+              <h3 id="projects-7">Projects</h3>
+
+              <p><a href="https://github.com/BJHunnicutt/petsy">bEtsy (aka PETsy)</a> : <a href="https://petsy-app.herokuapp.com">Heroku site</a> <br />
+                 <a href="https://github.com/AdaGold/standalone-exercises/blob/master/tasklistrails-oauth.md">TaskListRails + oAuth</a> </p>
+
+              <hr />
+           </article>
+           <article>
+
+              <h2 id="week12"> Ada Week 12</h2>
+              <h5> October 24, 2016 </h5>
+              <p>Basic intro to SQL and some more in depth CSS, but mostly project work time (bEtsy).</p>
+
+              <h3 id="lectures-7">Lectures</h3>
+
+              <p>Rails</p>
+
+              <ul>
+                 <li><a href="https://github.com/AdaGold/standalone-exercises/blob/master/Exception-Handling.md">Exception Handling</a>
+
+
+                    <ul>
+                       <li>Standard errors, Signal Exception &amp; Script errors, begin-rescue blocks</li>
+                    </ul>
+                 </li>
+              </ul>
+
+              <p>Other</p>
+
+              <ul>
+                 <li><a href="https://github.com/BJHunnicutt/foundation_styling_example">Foundation Styling 2 |html-css-16|</a>
+
+
+                    <ul>
+                       <li>equalizer, orbit, menus</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/07-databases/01-what-is-a-database.md">What is a database? |db-01|</a></li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/07-databases/02-using-sqlite.md">Using SQLite |db-02|</a> : <a href="https://github.com/AdaGold/standalone-exercises/blob/master/Learning-SQL.md">test database (Pokemon)</a>
+
+
+                    <ul>
+                       <li>Installation and basic queries (SELECT, INSERT, UPDATE, DELETE)</li>
+                    </ul>
+                 </li>
+              </ul>
+
+              <p>CS-Fundamentals</p>
+
+              <ul>
+                 <li><a href="https://github.com/AdaGold/standalone-exercises/blob/master/recursion-practice.md">Recursion Practice</a></li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/04-cs-fundamentals/classroom/10-Whiteboarding-Tips.md">Interview Prep</a>
+
+
+                    <ul>
+                       <li>Whiteboarding tips, interview question examples</li>
+                    </ul>
+                 </li>
+              </ul>
+
+              <h3 id="projects-8">Projects</h3>
+
+              <p><a href="https://github.com/BJHunnicutt/petsy">bEtsy (aka PETsy)</a> : <a href="https://petsy-app.herokuapp.com">Heroku site</a> </p>
+
+              <hr />
+           </article>
+           <article>
+
+              <h2 id="week13"> Ada Week 13</h2>
+              <h5> October 31, 2016 </h5>
+              <p>Interacting with APIs using Rails, testing APIs, and some details on advanced controller testing (API Muncher).</p>
+
+              <h3 id="lectures-8">Lectures</h3>
+
+              <p>Rails</p>
+
+              <ul>
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/09-intermediate-rails/06-web-api-101.md">Intro to web APIs |int-rails-06|</a>
+
+
+                    <ul>
+                       <li>JSON &amp; XML Formats</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/09-intermediate-rails/07-consuming-an-api.md">Consuming an API |int-rails-07|</a>
+
+
+                    <ul>
+                       <li>HTTParty gem</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/09-intermediate-rails/xx-consuming-apis-in-rails.md">Consuming an API - Rails |int-rails-xx|</a> : <a href="https://github.com/BJHunnicutt/slack_api_example">Slack API livecode</a>]
+
+
+                    <ul>
+                       <li>Create a Slack Bot via the API, play with Postman</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/09-intermediate-rails/08-vcr-testing.md">Testing APIs |int-rails-08|</a>
+
+
+                    <ul>
+                       <li>Using VCR to snapshot API calls</li>
+
+                       <li>See slack API livecode notes for details</li>
+                    </ul>
+                 </li>
+              </ul>
+
+              <p>CS-Fundamentals</p>
+
+              <ul>
+                 <li><a href="https://github.com/AdaGold/standalone-exercises/blob/master/pyramid.md">Whiteboard Practice</a></li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/04-cs-fundamentals/classroom/07-Using-LinkedList.md">Linked Lists |CS-07|</a>
+
+
+                    <ul>
+                       <li><a href="https://github.com/Ada-C6/list-implementations-cont">List Implementations</a></li>
+                    </ul>
+                 </li>
+              </ul>
+
+              <h3 id="helpfullinks-6">Helpful Links</h3>
+
+              <p><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/09-intermediate-rails/xx-api-tools.md">Postman Tutorial</a> (for API interaction)</p>
+
+              <h3 id="projects-9">Projects</h3>
+
+              <p><a href="https://github.com/BJHunnicutt/slack_api_example">Slack Bot</a> <br />
+                 <a href="https://github.com/BJHunnicutt/api-muncher">API Muncher (Edamam Recipes)</a> </p>
+
+              <hr />
+           </article>
+           <article>
+
+              <h2 id="week14"> Ada Week 14</h2>
+              <h5> November 7, 2016 </h5>
+              <p>Creating an API using Rails &amp; advanced Model testing (Shipping Service).</p>
+
+              <h3 id="lectures-9">Lectures</h3>
+
+              <p>Rails</p>
+
+              <ul>
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/09-intermediate-rails/10-creating-apis.md">Creating an API |int-rails-10|</a> - <a href="https://github.com/BJHunnicutt/ada-pets">livecode (ada-pets)</a> : <a href="https://docs.google.com/a/adadevelopersacademy.org/presentation/d/1_hHcJoUaGQ_5Re7RYDCi3SG1uKU2ruTOS3sJlCVxfTc/edit?usp=sharing">slides</a>
+
+
+                    <ul>
+                       <li>See documentation<em>creating</em>api notes</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/Advanced-Model-Testing-and-as_json/09-intermediate-rails/19-improving-model-tests-and-as_json.md">Advanced Model Testing |int-rails-19|</a>
+
+
+                    <ul>
+                       <li>Testing json API data</li>
+                    </ul>
+                 </li>
+              </ul>
+
+              <p>CS-Fundamentals</p>
+
+              <ul>
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/04-cs-fundamentals/classroom/08-Trees.md">Trees |CS-08|</a> : <a href="https://docs.google.com/presentation/d/1fZg27PvgsRCDd3vVkDH1Bc672na5dg5ZYyDw-FjeJY8/edit#slide=id.p">slides</a>
+
+
+                    <ul>
+                       <li><a href="https://github.com/Ada-C6/Trees">Starter code</a>, <a href="https://vimeo.com/171829891">video</a></li>
+                    </ul>
+                 </li>
+              </ul>
+
+              <h3 id="notetoself-1">Note-To-Self</h3>
+
+              <ul>
+                 <li>This was the week of the election, the API project is seriously sub-par (only required to do shipping-service side).</li>
+              </ul>
+
+              <h3 id="projects-10">Projects</h3>
+
+              <p><a href="https://github.com/Ada-C6/shipping-service">Shipping Service API</a> - <a href="https://github.com/Ada-C6/betsy-shipping">Betsy-Shipping (API Consumer)</a></p>
+
+              <hr />
+           </article>
+           <article>
+
+              <h2 id="week15"> Ada Week 15</h2>
+              <h5> November 14, 2016 </h5>
+              <p>Introduction to Javascript Basics: syntax, funcitons, objects, jQuery, etc (Scrabble.js, Digital Clock).</p>
+
+              <h3 id="lectures-10">Lectures</h3>
+
+              <p>Javascript</p>
+
+              <ul>
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/10-JavaScript/01-welcome-to-js.md">Intro to Javascript |js-01|</a> : <a href="https://docs.google.com/presentation/d/1pOig0npGCAM21CdRBVEGgJ-_vrCypi4rmk8W_aE7j7I/edit?usp=sharing">slides</a>
+
+
+                    <ul>
+                       <li>Install Node, Data types, conditionals, etc.</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/10-JavaScript/02-fun-with-functions.md">Fun with Functions |js-02|</a> : <a href="https://docs.google.com/presentation/d/1QboS170RoaKq2dVwLgXmUZHhzz8I5Cs1H08w0euvmY8/">slides</a>
+
+
+                    <ul>
+                       <li>Expression* vs declaration syntax (*use that one) </li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/10-JavaScript/03-objects-and-inheritance.md">Objects &amp; Inheritance |js-03|</a>
+
+
+                    <ul>
+                       <li>Constructor functions, prototypes, extending classes</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/10-JavaScript/04-js-in-the-browser.md">JS in the Browser |js-04|</a> : <a href="https://docs.google.com/presentation/d/1GPTn6W0QeEyquCxBJFj-E9W-i-MgXsBytA4xtCCW6Q4/edit#slide=id.g195ed98213_0_86">slides</a></li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/10-JavaScript/05-jquery-intro.md">jQuery Intro |js-05|</a> : <a href="https://docs.google.com/presentation/d/1D6m0YONvCPabyHtLiF8xYR7r_rz6yCe2osV1tNM5oPw/edit">slides</a>
+
+
+                    <ul>
+                       <li><a href="http://codepen.io/CheezItMan/pen/dOOmNo">Codepen #1</a> - Appending some HTML</li>
+
+                       <li><a href="http://codepen.io/CheezItMan/pen/GNrJrL?#">Codepen #2</a> - Manipulating an Image src.</li>
+
+                       <li>See javascript_browser notes</li>
+                    </ul>
+                 </li>
+              </ul>
+
+              <p>Other</p>
+
+              <ul>
+                 <li><a href="https://github.com/AdaGold/standalone-exercises/blob/724211e1ad55ec0e7b007276a3e4dc4ca5abbdd9/exercism-io.md">Exercism</a>
+
+
+                    <ul>
+                       <li>Setting up for JS Challenges, Jasmine (i.e. JS testing)</li>
+
+                       <li>Isogram, Gigasecond, Anagram, luhn</li>
+                    </ul>
+                 </li>
+              </ul>
+
+              <p>CS-Fundamentals</p>
+
+              <ul>
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/04-cs-fundamentals/classroom/09-Set-Map-Abstract-vs-Implement.md">Set &amp; Map Implementations vs Abstractions |CS-09|</a> : <a href="https://docs.google.com/presentation/d/1lnIqUyvI49crrfIsOWLLUk0J6A_B6NkBappV1bUu64k/edit#slide=id.p">slides</a></li>
+              </ul>
+
+              <h3 id="helpfullinks-7">Helpful Links</h3>
+
+              <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">MDN Javascript Guide</a> <br />
+                 <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch1.md">JS Basics</a> <br />
+                 <a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/10-JavaScript/01a-ruby-to-js-worksheet.md">Ruby to JS Loops Worksheet</a> <br />
+                 <a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/10-JavaScript/02a-functions-worksheet.md">Ruby to JS Functions Worksheet</a> </p>
+
+              <h3 id="projects-11">Projects</h3>
+
+              <p><a href="https://github.com/AdaGold/standalone-exercises/blob/master/calculator-node.md">Calculator</a> - Practice with JS Functions <br />
+                 <a href="https://github.com/AdaGold/standalone-exercises/blob/master/fortune.md">Fortunes</a> - Practice with JS Objects <br />
+                 <a href="https://github.com/BJHunnicutt/js-scrabble">Scrabble.js</a> <br />
+                 <a href="https://github.com/BJHunnicutt/js-digital-clock">Digital Clock</a> : <a href="https://bjhunnicutt.github.io/js-digital-clock/">live</a> </p>
+
+              <hr />
+           </article>
+           <article>
+
+              <h2 id="week16"> Ada Week 16</h2>
+              <h5> November 21, 2016 </h5>
+              <p>Some more in depth Javascript: AJAX, single page applications, accessing and updating APIs with JS, variable scope (Trek, Music Keyboard).</p>
+
+              <h3 id="lectures-11">Lectures</h3>
+
+              <p>Javascript</p>
+
+              <ul>
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/10-JavaScript/06-closures.md">Closures |js-06|</a>
+
+
+                    <ul>
+                       <li>three scope chains, inner functions have parent functions vars</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/BJHunnicutt/textbook-curriculum/blob/master/10-JavaScript/07-jquery-events.md">jQuery Events |js-07|</a> : <a href="https://docs.google.com/presentation/d/19tWV5qrvfCJh4hyaRV__yfim9q1FYRjEyrzZHHd7dDU/edit#slide=id.p">slides</a>
+
+
+                    <ul>
+                       <li>Binding events (click, highlight, key press, etc.) to manipulate the DOM</li>
+
+                       <li>See notes for before/after CodePen examples</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/Ada-Developers-Academy/textbook-curriculum/blob/master/10-JavaScript/08-hoisting.md">Hoisting |js-08|</a> : <a href="https://docs.google.com/presentation/d/1iN7gmMBknxbntdTifW5Pb68w3BxCrEpVIzrsaIsMnt4/edit#slide=id.p">slides</a>
+
+
+                    <ul>
+                       <li><a href="https://codepen.io/CheezItMan/pen/XNRJGJ">CodePen 1</a> &amp; <a href="https://codepen.io/CheezItMan/pen/ObmVMo">CodePen 2</a></li>
+
+                       <li>JS interpreter “Hoists” variable declarations w/i functions to the top of the scope</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/Ada-Developers-Academy/textbook-curriculum/blob/master/10-JavaScript/09-ajax-intro.md">AJAX (GET) |js-09|</a> : <a href="https://docs.google.com/presentation/d/1LVDN1k4fPgQhEAXlpFgNwZsRVJQGbMgHn_-vNli7jog/edit?usp=sharing">slides</a>
+
+
+                    <ul>
+                       <li>Single Page Applications (SPAs) via API interaction (XMLHTTPRequest)</li>
+
+                       <li><a href="https://github.com/Ada-C6/pets_api">Pets API Livecode</a> &amp; <a href="http://petdibs.herokuapp.com/pets">Heroku Pet API</a></li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/Ada-Developers-Academy/textbook-curriculum/blob/master/10-JavaScript/10-ajax-post.md">AJAX (PUT/POST) |js-10|</a>
+
+
+                    <ul>
+                       <li>Updating an API via Javascript</li>
+                    </ul>
+                 </li>
+              </ul>
+
+              <p>CS-Fundamentals</p>
+
+              <ul>
+                 <li><a href="https://github.com/Ada-Developers-Academy/textbook-curriculum/blob/master/04-cs-fundamentals/classroom/11-Whiteboarding-Recording.md">Whiteboarding Recording |CS-11|</a></li>
+              </ul>
+
+              <h3 id="helpfullinks-8">Helpful Links</h3>
+
+              <p><a href="http://www.w3schools.com/jquery/jquery_selectors.asp">jQuery Selectors (W3 Schools)</a> <br />
+                 <a href="../topic_resources/nix.md">External Resource Link</a> </p>
+
+              <h3 id="projects-12">Projects</h3>
+
+              <p><a href="https://github.com/BJHunnicutt/js-music-keyboard">Music Keyboard</a> : <a href="https://bjhunnicutt.github.io/js-music-keyboard/">live</a> <br />
+                 <a href="https://github.com/BJHunnicutt/trek">Trek</a> : <a href="https://bjhunnicutt.github.io/trek/">live</a></p>
+
+              <hr />
+           </article>
+           <article>
+
+              <h2 id="week17"> Ada Week 17</h2>
+              <h5> November 28, 2016 </h5>
+              <p>Intro to Backbone.js: Views, Events, Models, and Collections (Ada Trader, Rolodex).</p>
+
+              <h3 id="lectures-12">Lectures</h3>
+
+              <p>Backbone.js</p>
+
+              <ul>
+                 <li><a href="https://github.com/Ada-Developers-Academy/textbook-curriculum/blob/master/11-Backbonejs/01-Introduction-to-Backbonejs.md">Intro to Backbone |backbone-01|</a> : <a href="https://docs.google.com/presentation/d/12wG-8q4AH9UU-Z1DjANf7m--CiVTKqj9OO0rX7oMlDc/edit?usp=sharing">slides</a>
+
+
+                    <ul>
+                       <li><a href="https://github.com/BJHunnicutt/backbone-live-code">Livecode</a> (<a href="https://github.com/Ada-C6/backbone-live-code">original</a>)</li>
+
+                       <li>Required Libraries: Backbone, Underscore, jQuery</li>
+
+                       <li>Components: Models, Collections, Views, Events, and Routers</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/Ada-Developers-Academy/textbook-curriculum/blob/master/11-Backbonejs/02-Backbone-Views.md">Views |backbone-02|</a>
+
+
+                    <ul>
+                       <li>Backbone.View.extend(), $el, initialize:, render:, &amp; file organization</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/Ada-Developers-Academy/textbook-curriculum/blob/master/11-Backbonejs/03-Backbone-DOM-Events.md">Events |backbone-03|</a>
+
+
+                    <ul>
+                       <li>event handling, event listening,</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/Ada-Developers-Academy/textbook-curriculum/blob/master/11-Backbonejs/04-Backbone-Models.md">Models |backbone-04|</a> : <a href="https://docs.google.com/presentation/d/1nU0LL8KPrCgKX42B-3DhbHPlyZHYQgfaGrSa_hw3Ol8/edit#slide=id.g198b77af66_1_13">slides</a>
+
+
+                    <ul>
+                       <li>instantiating models, and manipulating them, built in event listeners for models</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/Ada-Developers-Academy/textbook-curriculum/blob/master/11-Backbonejs/05-Backbone-Collections.md">Collections |backbone-05|</a> : <a href="https://docs.google.com/presentation/d/1nU0LL8KPrCgKX42B-3DhbHPlyZHYQgfaGrSa_hw3Ol8/edit#slide=id.g198b77af66_1_13">slides</a>
+
+
+                    <ul>
+                       <li>A type of Model that has other Model instances inside it</li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://github.com/Ada-Developers-Academy/textbook-curriculum/blob/master/11-Backbonejs/06-Adding-Custom-Events.md">Custom Events |backbone-06|</a>
+
+
+                    <ul>
+                       <li>Mix-Ins via underscore, ListenTo() &amp; trigger()</li>
+                    </ul>
+                 </li>
+              </ul>
+
+              <h3 id="helpfullinks-9">Helpful Links</h3>
+
+              <p><a href="http://backbonejs.org/#Events">Backbone Events Library</a> </p>
+
+              <h3 id="projects-13">Projects</h3>
+
+              <p><a href="https://github.com/BJHunnicutt/ada-trader">Ada Trader</a> <br />
+                 <a href="https://github.com/BJHunnicutt/rolodex">Rolodex</a> </p>
+
+              <hr />
+           </article>
+           <article>
+
+              <h2 id="week18"> Ada Week 18</h2>
+              <h5> December 5, 2016 </h5>
+              <p>Interview Week + work on whatever you want. We were given <a href="https://github.com/AdaGold/interview_week_activities">optional projects</a>, but I worked on my portfolio site and made these notes instead.</p>
+
+              <h3 id="projects-14">Projects</h3>
+
+              <p><a href="https://github.com/AdaGold/interview_week_activities">Optional projects</a> <br />
+                 <a href="https://github.com/BJHunnicutt/BJHunnicutt.github.io">Portfolio</a> </p>
+           </article>
+        </section>
+     </section>
+   </main>
+   <footer>
+      <p id='cdate'> Jeannie Hunnicutt &copy; 2016 </p>
+      <nav class="social-nav">
+         <!-- <a class="icon-img" href="mailto:BJeanineH@gmail.com">
              <img src="../assets/icons/Email-White.svg" alt="Email link">
              <img src="../assets/icons/Email-black.svg" alt="Email link">
            </a> -->
-           <a class="icon-img" href="https://www.linkedin.com/in/jeanniehunnicutt">
-             <img src="../assets/icons/LinkedIn-white.svg" alt="LinkedIn link" title="LinkedIn">
-             <img src="../assets/icons/LinkedIn-black.svg" alt="LinkedIn link" title="LinkedIn">
-           </a>
-           <a class="icon-img" href="https://github.com/BJHunnicutt">
-             <img src="../assets/icons/Github-white.svg" alt="GitHub link" title="GitHub">
-             <img src="../assets/icons/Github-black.svg" alt="GitHub link" title="GitHub">
-           </a>
-       </nav>
-    </footer>
-  </body>
+         <a class="icon-img" href="https://www.linkedin.com/in/jeanniehunnicutt">
+            <img src="../assets/icons/LinkedIn-white.svg" alt="LinkedIn link" title="LinkedIn">
+            <img src="../assets/icons/LinkedIn-black.svg" alt="LinkedIn link" title="LinkedIn">
+         </a>
+         <a class="icon-img" href="https://github.com/BJHunnicutt">
+            <img src="../assets/icons/Github-white.svg" alt="GitHub link" title="GitHub">
+            <img src="../assets/icons/Github-black.svg" alt="GitHub link" title="GitHub">
+         </a>
+      </nav>
+   </footer>
+</body>
 
-  <!-- A little javascript to make a couple mobile responsive changes -->
-  <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<!-- A little javascript to make a couple mobile responsive changes -->
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+
+<!-- AND a little more to make this a one page list where the top buttons scroll to the appropriate week -->
+<!-- <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="scripts.js"></script> -->
 
 </html>
