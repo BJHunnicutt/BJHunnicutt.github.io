@@ -3,7 +3,7 @@
 
 
 #inset-text h2 {
-  padding-top: 70px;
+  padding-top: 50px;
 }
 #inset-text h1, #inset-text h2 {
   font-family: "Courier New", Courier, monospace;
@@ -17,7 +17,7 @@
 #inset-text {
     /*background-color: rgba(150, 150, 150, 0.25);*/
     /*margin: 4%;*/
-    padding: 8%;
+    padding: 4% 6% 12% 6%;
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
     /*font-family: "Courier New", Courier, monospace;*/

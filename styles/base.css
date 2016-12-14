@@ -59,6 +59,7 @@ header {
 header a , footer a{
    color: black;
    text-decoration: none;
+   line-height: 1.6;
 }
 
 
@@ -75,7 +76,7 @@ header a:hover, footer a:hover  {
 
 
 .local-nav {
-    width: 82%;
+    width: 85%;
     display: inline-block;
     float: right;
     font-family: "Courier New", Courier, monospace;
@@ -85,8 +86,9 @@ header li * {
     color: black;
     display: inline-block;
     float: right;
-    padding: 11px 15px 8px 0px;
+    padding: 11px 20px 0px 0px;
     font-size: 3vw;
+
 }
 
 header ul {
@@ -101,6 +103,7 @@ header ul {
     font-family: "Courier New", Courier, monospace;
     font-size: 3vw;
     padding: 11px 5px 0 15px;
+    margin-bottom: 5px;
 }
 /* ------------------- end HEADER --------------------- */
 
@@ -171,11 +174,18 @@ footer {
       font-size: 16px;
       /*background-color: red;*/
   }
+  #homepage-link { font-size: 16px; }
+
 
   #cdate {
       color: black;
       /*font-size: 16px;*/
       /*background-color: red;*/
   }
+}
 
+@media screen and (min-width:850px) {
+
+  header a { font-size: 25px; }
+  #homepage-link { font-size: 25px; }
 }
