@@ -12,13 +12,13 @@
     top: 45px;
 }
 
-#inset-text a {
+#inset-text a,  button {
    /*color: rgb(112, 112, 112);*/
    color: purple;
    text-decoration: none;
 }
 
-#inset-text a:hover {
+#inset-text a:hover,  button:hover {
   color: gold;
 }
 
@@ -112,6 +112,8 @@ button:hover { box-shadow: 1px 1px 5px rgba(0,0,0,0.3); }
 .project-img-wrap {
     width: 50vw;
     min-width: 300px;
+    /*max-height: 75vw;*/
+    overflow: hidden;
     display: inline-block;
     text-align: right;
     vertical-align:top;
