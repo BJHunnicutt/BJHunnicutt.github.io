@@ -79,7 +79,7 @@
   display: inline-block;
   text-align:center;
   /*border-left: 1px solid;*/
-  margin: 10px 0 10px 0;
+  margin: 10px 0 10px 10px;
 
   /*background-color: magenta;*/
 }
@@ -110,7 +110,7 @@ button:hover { box-shadow: 1px 1px 5px rgba(0,0,0,0.3); }
 /* ------------------- Project THumbnails --------------------- */
 
 .project-img-wrap {
-    width: 50vw;
+    width: 400px;
     min-width: 300px;
     /*max-height: 75vw;*/
     overflow: hidden;
@@ -189,6 +189,15 @@ button:hover { box-shadow: 1px 1px 5px rgba(0,0,0,0.3); }
 
 
 /* ----------- Media Queries ----------- */
+
+
+@media screen and (max-width:1000px) {
+
+  .project-img-wrap { width: 40vw; }
+
+  .project-info { width: 40vw; }
+
+}
 
 @media screen and (max-width:700px) {
 
