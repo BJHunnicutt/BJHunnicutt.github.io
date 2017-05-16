@@ -6,6 +6,15 @@ html {
     height: 100%;
 }
 
+html ::selection {
+  background: rgba(255, 215, 0, 0.5);
+
+}
+
+html ::-moz-selection {
+  background: gold;
+}
+
 
 /* ------------------- Background image --------------------- */
 
