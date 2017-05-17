@@ -29,7 +29,7 @@ html {
   font-size: 6vw;
   font-weight: normal;
   text-shadow: 2px 2px 10px rgb(155, 155, 155);
-  margin: 10vh 0 10px 0;
+  margin: 5vh 0 10px 0;
 
   /*display: inline;*/
 }
@@ -37,15 +37,24 @@ html {
 #intro h3 {
   font-size: 3vw;
   font-weight: normal;
+  line-height: 150%;
   text-shadow: 2px 2px 10px rgb(155, 155, 155);
-  background: gold;
   margin-bottom: 10px;
-  /*display: inline;*/
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#intro .banner {
+  display: table;
+  height: 10vh;
+  width: 100%;
+  background-color: rgba(255, 215, 0, 0.5);
 }
 
 #intro h4 {
   font-size: 2.5vw;
   font-weight: normal;
+  line-height: 150%;
   text-shadow: 2px 2px 10px rgb(155, 155, 155);
   margin: 0 3vw 5vh 3vw;
   /*background: gold;*/
@@ -65,11 +74,11 @@ html {
 }
 
 #intro h3::selection, #intro strong::selection {
-  /*background: darkturquoise;*/
+  background: rgba(0,0,0,0);
 }
 
 #intro h4::selection {
-  background: yellowgreen;
+  background: lightgray;
 }
 
 #intro p {
@@ -90,6 +99,10 @@ a {
     height: 30px;
     padding-top: 8px;
     padding-right: 15px;
+}
+
+#contact-links {
+  margin-bottom: 10vh;
 }
 
 /* ------------------- Background image --------------------- */
