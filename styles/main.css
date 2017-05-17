@@ -61,10 +61,11 @@ html {
 
 #intro h2::selection {
   background: purple;
+  color: gold;
 }
 
 #intro h3::selection, #intro strong::selection {
-  background: darkturquoise;
+  /*background: darkturquoise;*/
 }
 
 #intro h4::selection {
