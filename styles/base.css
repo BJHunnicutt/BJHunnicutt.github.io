@@ -42,7 +42,6 @@ html ::-moz-selection {
 
 /* ------------------- HEADER --------------------- */
 header {
-    /*background-color: rgba(150, 150, 150, 0.5);*/
     background-color: white;
     border-bottom: 1px solid lightgray;
     height: auto;
@@ -170,15 +169,12 @@ footer {
   header a {
       color: black;
       font-size: 16px;
-      /*background-color: red;*/
   }
   #homepage-link { font-size: 16px; }
 
 
   #cdate {
       color: black;
-      /*font-size: 16px;*/
-      /*background-color: red;*/
   }
 }
 
