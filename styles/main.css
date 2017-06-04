@@ -43,6 +43,15 @@ html {
   padding: 10px 15px;
 }
 
+#landing-page h4 {
+  color: gray;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 2vw;
+  font-weight: 100;
+  /*line-height: 150%;*/
+  padding: 0 0 3vh 0;
+}
+
 #landing-page .banner {
   display: table;
   height: 8vh;
@@ -69,7 +78,8 @@ html {
 }
 
 #landing-page p::selection {
-  background: lightgray;
+  background: purple;
+  color: gold;
 }
 
 #landing-page p {
@@ -133,6 +143,10 @@ a {
     font-size: 14pt;
   }
 
+  #landing-page h4 {
+    font-size: 9pt;
+  }
+
   #landing-page p, #landing-page .sub-header {
     font-size: 12pt;
   }
@@ -145,6 +159,10 @@ a {
 
   #landing-page h3 {
     font-size: 20pt;
+  }
+
+  #landing-page h4 {
+    font-size: 13pt;
   }
 
   #landing-page p, #landing-page .sub-header {
