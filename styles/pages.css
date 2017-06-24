@@ -82,6 +82,20 @@
    padding-left: 15px;
 }
 
+#ada-description p {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+  font-size: 3vw;
+  text-align: center;
+  /*color: goldenrod;*/
+  margin: 1vh 0 3vh 0;
+  padding: 0;
+}
+
+#description-wrapper {
+  text-align: center;
+  padding-bottom: 15px;
+}
 
 /* ------------------- Notes Page --------------------- */
 
